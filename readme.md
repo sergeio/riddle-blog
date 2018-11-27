@@ -104,17 +104,7 @@ But why? How? (Round 2)
 
 Test
 
-<img alt="$ \frac{1}{4} $" src="svgs/a01ae6d9e2cde028961d1d3790596f76.svg" align="middle" width="6.552645pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{8} + \frac{1}{8} = \frac{1}{4} $" src="svgs/4ef4cec6052018c5a3be4f93515f3f76.svg" align="middle" width="69.556905pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{8} + \frac{1}{16} $" src="svgs/f589ba46bddb6f6ae209e3073b17a75d.svg" align="middle" width="43.694145pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{16} + \frac{1}{32} + \frac{1}{32} = \frac{1}{8} $" src="svgs/dbf713a664e947656c4548c25b8d852d.svg" align="middle" width="119.80353pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{16} + \frac{1}{64} $" src="svgs/37e06f17f2c4090984bcb2c2646e0452.svg" align="middle" width="50.246625pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{32} + \frac{1}{128} + \frac{1}{128} = \frac{1}{32} + \frac{1}{64} $" src="svgs/0b319c817ea2c41e1a1788066b0b1581.svg" align="middle" width="176.60313pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{64} + \frac{1}{128} + \frac{1}{256} $" src="svgs/fd7412447fb69e5e193f9c071edb42a2.svg" align="middle" width="100.49325pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{128} + \frac{1}{256} + \frac{1}{512} + \frac{1}{512} = \frac{1}{64} $" src="svgs/ad496a8aca9b553ff0e5fe86ae7aa360.svg" align="middle" width="189.70743pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{128} + \frac{1}{1024} $" src="svgs/a0605559efbdf8ea8ea6228c494b9ae1.svg" align="middle" width="69.90423pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{256} + \frac{1}{2048} + \frac{1}{2048} = \frac{1}{256} + \frac{1}{1024} $" src="svgs/8d09c62db74e97e2c88980e160a0b878.svg" align="middle" width="215.91768pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{512} + \frac{1}{2048} + \frac{1}{4096} $" src="svgs/0866a0f9670a2d772387f381a8a96dbb.svg" align="middle" width="120.150855pt" height="27.77577pt"/>
+<img alt="$&#10;\begin{align}&#10;&amp; \frac{1}{4} \\&#10;&amp; \frac{1}{8} + \frac{1}{8} = \frac{1}{4} \\&#10;&amp; \frac{1}{8} + \frac{1}{16} \\&#10;&amp; \frac{1}{16} + \frac{1}{32} + \frac{1}{32} = \frac{1}{8} \\&#10;&amp; \frac{1}{16} + \frac{1}{64} \\&#10;&amp; \frac{1}{32} + \frac{1}{128} + \frac{1}{128} = \frac{1}{32} + \frac{1}{64} \\&#10;&amp; \frac{1}{64} + \frac{1}{128} + \frac{1}{256} \\&#10;&amp; \frac{1}{128} + \frac{1}{256} + \frac{1}{512} + \frac{1}{512} = \frac{1}{64} \\&#10;&amp; \frac{1}{128} + \frac{1}{1024} \\&#10;&amp; \frac{1}{256} + \frac{1}{2048} + \frac{1}{2048} = \frac{1}{256} + \frac{1}{1024} \\&#10;\end{align}&#10;$" src="svgs/a660c80a0e0e5eafe82d01a0f552ecd8.svg" align="middle" width="8.219211pt" height="14.15535pt"/>
 
 
 Thank You

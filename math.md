@@ -104,17 +104,20 @@ But why? How? (Round 2)
 
 Test
 
-$ \frac{1}{4} $
-$ \frac{1}{8} + \frac{1}{8} = \frac{1}{4} $
-$ \frac{1}{8} + \frac{1}{16} $
-$ \frac{1}{16} + \frac{1}{32} + \frac{1}{32} = \frac{1}{8} $
-$ \frac{1}{16} + \frac{1}{64} $
-$ \frac{1}{32} + \frac{1}{128} + \frac{1}{128} = \frac{1}{32} + \frac{1}{64} $
-$ \frac{1}{64} + \frac{1}{128} + \frac{1}{256} $
-$ \frac{1}{128} + \frac{1}{256} + \frac{1}{512} + \frac{1}{512} = \frac{1}{64} $
-$ \frac{1}{128} + \frac{1}{1024} $
-$ \frac{1}{256} + \frac{1}{2048} + \frac{1}{2048} = \frac{1}{256} + \frac{1}{1024} $
-$ \frac{1}{512} + \frac{1}{2048} + \frac{1}{4096} $
+$
+\begin{align}
+& \frac{1}{4} \\
+& \frac{1}{8} + \frac{1}{8} = \frac{1}{4} \\
+& \frac{1}{8} + \frac{1}{16} \\
+& \frac{1}{16} + \frac{1}{32} + \frac{1}{32} = \frac{1}{8} \\
+& \frac{1}{16} + \frac{1}{64} \\
+& \frac{1}{32} + \frac{1}{128} + \frac{1}{128} = \frac{1}{32} + \frac{1}{64} \\
+& \frac{1}{64} + \frac{1}{128} + \frac{1}{256} \\
+& \frac{1}{128} + \frac{1}{256} + \frac{1}{512} + \frac{1}{512} = \frac{1}{64} \\
+& \frac{1}{128} + \frac{1}{1024} \\
+& \frac{1}{256} + \frac{1}{2048} + \frac{1}{2048} = \frac{1}{256} + \frac{1}{1024} \\
+\end{align}
+$
 
 
 Thank You
