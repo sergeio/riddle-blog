@@ -30,7 +30,7 @@ boy per family.  Look at us.  We're doing math.  Girls are a tiny bit more
 complicated.  One quarter of families have one girl, an eighth have two girls,
 and so on.
 
-<p align="center"><img alt="$$ \frac{1},{4} + \frac{2},{8} + \frac{3},{16} + \frac{4},{32} + \frac{5},{64} + \frac{6},{128} + \frac{7},{256} + \frac{8},{512} + \frac{9},{1024} = .99 girls/fam $$" src="svgs/363a3869d590da0cd8273df897fcd285.svg" align="middle" width="559.8219pt" height="36.18648pt"/></p>
+<p align="center"><img alt="$$ \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + \frac{4}{32} + \frac{5}{64} + \frac{6}{128} + \frac{7}{256} + \frac{8}{512} + \frac{9}{1024} = .99 girls/fam $$" src="svgs/64912ade791bb3255eea3920db3eb4ee.svg" align="middle" width="485.8491pt" height="32.9901pt"/></p>
 
 Whoa!  They're making a comeback, and we're only 9 terms into this infinite
 sum.  I renounce my intuition and would now guess that somehow, the amount of
@@ -47,10 +47,10 @@ The amount of boys per family is 1 by definition, but since we're doing math,
 and we wouldn't want someone to accidentally understand us -- I mean, how then
 would we derive our sense of self-worth? -- let us obfuscate:
 
-<p align="center"><img alt="$$ boys/family = S{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1},{2} + \frac{1},{4} + \frac{1},{8} + ... $$" src="svgs/5ca9131f80d393946f3009566a5ed655.svg" align="middle" width="382.30995pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$ boys/family = S{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/9521a010b10dc902162fa95c1960aedc.svg" align="middle" width="357.65235pt" height="44.69883pt"/></p>
 
-And here comes the magic.  We can multiply every term in the sequence by <img alt="$\frac{1},{2}$" src="svgs/516fe87fb4e74d3fe1f7db69ade18f89.svg" align="middle" width="16.744365pt" height="27.77577pt"/>:
-<p align="center"><img alt="$$ 2 * S{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1},{2} + \frac{1},{4} + \frac{1},{8} + ... $$" src="svgs/5b85abfcb0b03ea96ae65e12545f8074.svg" align="middle" width="320.36895pt" height="44.69883pt"/></p>
+And here comes the magic.  We can multiply every term in the sequence by <img alt="$\frac{1}{2}$" src="svgs/47d54de4e337a06266c0e1d22c9b417b.svg" align="middle" width="6.552645pt" height="27.77577pt"/>:
+<p align="center"><img alt="$$ 2 * S{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/7a78a31ae550d68fb6303b0686e066e3.svg" align="middle" width="295.71135pt" height="44.69883pt"/></p>
 
 We can see that the nth element of Sb(n) equals the (n+1)th element of
 <img alt="$2 * S{b}(n)$" src="svgs/33db686c110c8122ded01121f99137de.svg" align="middle" width="64.4787pt" height="24.6576pt"/>.

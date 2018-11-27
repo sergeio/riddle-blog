@@ -30,7 +30,7 @@ boy per family.  Look at us.  We're doing math.  Girls are a tiny bit more
 complicated.  One quarter of families have one girl, an eighth have two girls,
 and so on.
 
-$$ \frac{1},{4} + \frac{2},{8} + \frac{3},{16} + \frac{4},{32} + \frac{5},{64} + \frac{6},{128} + \frac{7},{256} + \frac{8},{512} + \frac{9},{1024} = .99 girls/fam $$
+$$ \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + \frac{4}{32} + \frac{5}{64} + \frac{6}{128} + \frac{7}{256} + \frac{8}{512} + \frac{9}{1024} = .99 girls/fam $$
 
 Whoa!  They're making a comeback, and we're only 9 terms into this infinite
 sum.  I renounce my intuition and would now guess that somehow, the amount of
@@ -47,10 +47,10 @@ The amount of boys per family is 1 by definition, but since we're doing math,
 and we wouldn't want someone to accidentally understand us -- I mean, how then
 would we derive our sense of self-worth? -- let us obfuscate:
 
-$$ boys/family = S{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1},{2} + \frac{1},{4} + \frac{1},{8} + ... $$
+$$ boys/family = S{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
 
-And here comes the magic.  We can multiply every term in the sequence by $\frac{1},{2}$:
-$$ 2 * S{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1},{2} + \frac{1},{4} + \frac{1},{8} + ... $$
+And here comes the magic.  We can multiply every term in the sequence by $\frac{1}{2}$:
+$$ 2 * S{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
 
 We can see that the nth element of Sb(n) equals the (n+1)th element of
 $2 * S{b}(n)$.
