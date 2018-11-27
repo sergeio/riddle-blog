@@ -51,7 +51,7 @@ boys/family = Sb(n) = sum(.5^n) for n in (1, infinity) = 1/2 + 1/4 + 1/8 + ...
 
 And here comes the magic.  We can multiply every term in the sequence by 1/2:
 2 * Sb(n) = sum(.5^n) for n in (0, infinity) = 1 + 1/2 + 1/4 + 1/8 + ...
-$2 * Sb(n) = sum(.5^n) for n in (0, infinity) = 1 + 1/2 + 1/4 + 1/8 + ...$
+<img alt="$2 * Sb(n) = sum(.5^n) for n in (0, infinity) = 1 + 1/2 + 1/4 + 1/8 + ...$" src="svgs/e03ffa0c1c47c9b6cf40b00ff897ed7c.svg?invert_in_darkmode" align="middle" width="491.128605pt" height="24.6576pt"/>
 
 We can see that the nth element of Sb(n) equals the (n+1)th element of
 2 * Sb(n).
@@ -63,11 +63,11 @@ Sb(n) = 1
 
 
 
-$E = \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}$
+<img alt="$E = \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}$" src="svgs/bd03775d716dc07295041dad665bb7bc.svg?invert_in_darkmode" align="middle" width="83.313285pt" height="36.29604pt"/>
 
 another one
 
-$$\sum\limits_{n=1}^\infty \frac{1}{2^n} $$
+<p align="center"><img alt="$$\sum\limits_{n=1}^\infty \frac{1}{2^n} $$" src="svgs/c30f5d7a05b80c41ecd23d4109765b9a.svg?invert_in_darkmode" align="middle" width="46.649295pt" height="44.69883pt"/></p>
 
 
 
