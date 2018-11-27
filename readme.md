@@ -69,6 +69,7 @@ We can use the exact same reasoning as above to get a more general formula for
 the sum of an infinite sum:
 
 <p align="center"><img alt="$$ \sum\limits_{n=0}^\infty x^n = \frac{1}{1-x} $$" src="svgs/5804112b234b942dc2184f91669a6d00.svg" align="middle" width="107.448165pt" height="44.69883pt"/></p>
+
 > so long as the series converges, it'll converge to this.
 
 Now let's formalize the amount of girls in this country:
@@ -83,17 +84,19 @@ So let's follow that clue:
 
 <p align="center"><img alt="$$ \sum\limits_{n=0}^\infty x^n = \frac{1}{1-x} $$" src="svgs/5804112b234b942dc2184f91669a6d00.svg" align="middle" width="107.448165pt" height="44.69883pt"/></p>
 <p align="center"><img alt="$$ \frac{d}{dx} \sum\limits_{n=0}^\infty x^n = \frac{d}{dx} \frac{1}{1-x} $$" src="svgs/f165f54d8d32d9b3054535f7dee18798.svg" align="middle" width="152.007405pt" height="44.69883pt"/></p>
-<p align="center"><img alt="$$ \sum\limits_{n=0}^\infty n x^n = \frac{1}{(x-1)^2} $$" src="svgs/955bbc883e00d6c0351368b71a3da6ea.svg" align="middle" width="137.474865pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$ \sum\limits_{n=0}^\infty n x^{n-1} = \frac{1}{(x-1)^2} $$" src="svgs/4346fd43032207a3545bc2126f1e63ad.svg" align="middle" width="154.3014pt" height="44.69883pt"/></p>
 
 And shuffling some things around:
 
-<p align="center"><img alt="$$ S_{b} = 1 $$" src="svgs/07a16a464dd9f5ee0ee9f151c94b3871.svg" align="middle" width="46.819575pt" height="13.698597pt"/></p>
+<p align="center"><img alt="$$ S_{g} = 1 $$" src="svgs/08ca43336175c9f6bb34139b3df7e938.svg" align="middle" width="47.864685pt" height="15.93603pt"/></p>
 
 So here we are.  We've been good.  We didn't just take formulas from an oracle
-and plug things in -- we derived them.  And while I feel fairly confident that
-the answer is correct, doing all this symbol manipulation brings me no
-intuitive satisfaction for _why_ or _how_ those two infinite sequences converge
-to the same value.
+and plug things in; we derived them.  I feel confident that the answer is
+correct, and that I would get a ✓ if this were math homework.  Still, doing all
+this symbol manipulation brings me no intuitive satisfaction as to _why_ or
+_how_ those two infinite sequences converge to the same value.
+
+Let's try something less fancy.
 
 
 But why? How? (Round 2)

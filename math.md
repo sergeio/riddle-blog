@@ -69,6 +69,7 @@ We can use the exact same reasoning as above to get a more general formula for
 the sum of an infinite sum:
 
 $$ \sum\limits_{n=0}^\infty x^n = \frac{1}{1-x} $$
+
 > so long as the series converges, it'll converge to this.
 
 Now let's formalize the amount of girls in this country:
@@ -83,17 +84,19 @@ So let's follow that clue:
 
 $$ \sum\limits_{n=0}^\infty x^n = \frac{1}{1-x} $$
 $$ \frac{d}{dx} \sum\limits_{n=0}^\infty x^n = \frac{d}{dx} \frac{1}{1-x} $$
-$$ \sum\limits_{n=0}^\infty n x^n = \frac{1}{(x-1)^2} $$
+$$ \sum\limits_{n=0}^\infty n x^{n-1} = \frac{1}{(x-1)^2} $$
 
 And shuffling some things around:
 
-$$ S_{b} = 1 $$
+$$ S_{g} = 1 $$
 
 So here we are.  We've been good.  We didn't just take formulas from an oracle
-and plug things in -- we derived them.  And while I feel fairly confident that
-the answer is correct, doing all this symbol manipulation brings me no
-intuitive satisfaction for _why_ or _how_ those two infinite sequences converge
-to the same value.
+and plug things in; we derived them.  I feel confident that the answer is
+correct, and that I would get a ✓ if this were math homework.  Still, doing all
+this symbol manipulation brings me no intuitive satisfaction as to _why_ or
+_how_ those two infinite sequences converge to the same value.
+
+Let's try something less fancy.
 
 
 But why? How? (Round 2)
