@@ -102,7 +102,13 @@ Let's try something less fancy.
 But why? How? (Round 2)
 -----------------------
 
-Test
+Let's try looking at the values of $ f(n) = \frac{n}{2^n} $ for n = 2, 3,..
+
+If we think about it, we can show that each term
+$ f(n) = \frac{f(n-1)}{2} + \frac{1}{2^n} $
+
+So that's how I'll calculate each line below: take the previous line, divide
+by 2, and add the next power of 1/2:
 
 $ \frac{1}{4} $
 $ \frac{1}{8} + \frac{1}{8} = \frac{1}{4} $
@@ -115,6 +121,23 @@ $ \frac{1}{128} + \frac{1}{256} + \frac{1}{512} + \frac{1}{512} = \frac{1}{64} $
 $ \frac{1}{128} + \frac{1}{1024} $
 $ \frac{1}{256} + \frac{1}{2048} + \frac{1}{2048} = \frac{1}{256} + \frac{1}{1024} $
 $ \frac{1}{512} + \frac{1}{2048} + \frac{1}{4096} $
+
+And now we stare.
+
+Somehow when we sum all the lines together, (in the reduced form) there are
+exactly 2 $\frac{1}{4}$s, adding up to $\frac{1}{2}$, 2 $\frac{1}{8}$s, adding
+up to $\frac{1}{4}$, 2 $\frac{1}{16}$s, 1 $\frac{1}{32}$, but 3 $\frac{1}{64}$s
+to make up for it.
+
+I see how this is mimicing $\sum\limits_{n=2}^\infty \frac{1}{2^n}$, and I get
+another little kick of dopamine from my brain, having somehow connected two
+seemingly unconnected things.  But for all that, I just don't see the pattern.
+I see that it works, but I don't understand why it must.
+
+But why? How? (Round 3)
+-----------------------
+
+Let's draw.
 
 
 Thank You
