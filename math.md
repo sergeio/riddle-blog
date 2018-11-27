@@ -47,18 +47,18 @@ The amount of boys per family is 1 by definition, but since we're doing math,
 and we wouldn't want someone to accidentally understand us -- I mean, how then
 would we derive our sense of self-worth? -- let us obfuscate:
 
-$$ boys/family = S{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
+$$ boys/family = S_{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
 
 And here comes the magic.  We can multiply every term in the sequence by $\frac{1}{2}$:
-$$ 2 * S{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
+$$ 2 * S_{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
 
 We can see that the nth element of Sb(n) equals the (n+1)th element of
-$2 * S{b}(n)$.
+$2 * S_{b}(n)$.
 
 And being a little clever, we eliminate all those pesky infinite terms:
-$$ 2 * S{b}(n) - S{b}(n) = 1 + \frac{1}/{2} - \frac{1}/{2} + \frac{1}/{4} - \frac{1}/{4} + \frac{1}/{8} - \frac{1}/{8} + ... = 1 $$
+$$ 2 * S_{b}(n) - S_{b}(n) = 1 + \frac{1}/{2} - \frac{1}/{2} + \frac{1}/{4} - \frac{1}/{4} + \frac{1}/{8} - \frac{1}/{8} + ... = 1 $$
 
-$$S{b}(n) = 1$$
+$$S_{b}(n) = 1$$
 
 
 
