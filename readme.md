@@ -104,17 +104,17 @@ But why? How? (Round 2)
 
 Test
 
-<img alt="$ \fraction{1}{4} $" src="svgs/39d6d090ff091f9d21016d4901bd98ff.svg" align="middle" width="16.438455pt" height="21.18732pt"/>
-<img alt="$ \fraction{1}{8} + \fraction{1}{8} = \fraction{1}{4} $" src="svgs/0fd4c213fcd61c0dcedf6f8feefec458.svg" align="middle" width="91.3242pt" height="21.18732pt"/>
-<img alt="$ \fraction{1}{8} + \fraction{1}{16} $" src="svgs/45eeb59c49ac9838db86ce0877f3d1d2.svg" align="middle" width="61.18728pt" height="21.18732pt"/>
-<img alt="$ \fraction{1}{16} + \fraction{1}{32} + \fraction{1}{32} = \fraction{1}{8} $" src="svgs/93b71f96157b65defd74604ebcb0c488.svg" align="middle" width="152.511315pt" height="21.18732pt"/>
-<img alt="$ \fraction{1}{16} + \fraction{1}{64} $" src="svgs/2da600fec7bc9426411e536a40b122d1.svg" align="middle" width="69.406425pt" height="21.18732pt"/>
-<img alt="$ \fraction{1}{32} + \fraction{1}{128} + \fraction{1}{128} = \fraction{1}{32} + \fraction{1}{64} $" src="svgs/ebf73e9a59c81700cdee2daa161ce2ef.svg" align="middle" width="221.917905pt" height="21.18732pt"/>
-<img alt="$ \fraction{1}{64} + \fraction{1}{128} + \fraction{1}{256} $" src="svgs/8d17e11bf93701b6217f5280561603ff.svg" align="middle" width="130.593705pt" height="21.18732pt"/>
-<img alt="$ \fraction{1}{128} + \fraction{1}{256} + \fraction{1}{512} + \fraction{1}{512} = \fraction{1}{64} $" src="svgs/eb946fdbea4ced05b86f1f05384ea4f3.svg" align="middle" width="238.356855pt" height="21.18732pt"/>
-<img alt="$ \fraction{1}{128} + \fraction{1}{1024} $" src="svgs/f106c199b167d93db535b50c67b73d5b.svg" align="middle" width="94.06419pt" height="21.18732pt"/>
-<img alt="$ \fraction{1}{256} + \fraction{1}{2048} + \fraction{1}{2048} = \fraction{1}{256} + \fraction{1}{1024} $" src="svgs/f7b195a4f4256a07d6e406a7b58227a4.svg" align="middle" width="271.233105pt" height="21.18732pt"/>
-<img alt="$ \fraction{1}{512} + \fraction{1}{2048} + \fraction{1}{4096} $" src="svgs/05bdb31d93e6fbe701597c007ccfcf3a.svg" align="middle" width="155.251305pt" height="21.18732pt"/>
+<img alt="$ \frac{1}{4} $" src="svgs/a01ae6d9e2cde028961d1d3790596f76.svg" align="middle" width="6.552645pt" height="27.77577pt"/>
+<img alt="$ \frac{1}{8} + \frac{1}{8} = \frac{1}{4} $" src="svgs/4ef4cec6052018c5a3be4f93515f3f76.svg" align="middle" width="69.556905pt" height="27.77577pt"/>
+<img alt="$ \frac{1}{8} + \frac{1}{16} $" src="svgs/f589ba46bddb6f6ae209e3073b17a75d.svg" align="middle" width="43.694145pt" height="27.77577pt"/>
+<img alt="$ \frac{1}{16} + \frac{1}{32} + \frac{1}{32} = \frac{1}{8} $" src="svgs/dbf713a664e947656c4548c25b8d852d.svg" align="middle" width="119.80353pt" height="27.77577pt"/>
+<img alt="$ \frac{1}{16} + \frac{1}{64} $" src="svgs/37e06f17f2c4090984bcb2c2646e0452.svg" align="middle" width="50.246625pt" height="27.77577pt"/>
+<img alt="$ \frac{1}{32} + \frac{1}{128} + \frac{1}{128} = \frac{1}{32} + \frac{1}{64} $" src="svgs/0b319c817ea2c41e1a1788066b0b1581.svg" align="middle" width="176.60313pt" height="27.77577pt"/>
+<img alt="$ \frac{1}{64} + \frac{1}{128} + \frac{1}{256} $" src="svgs/fd7412447fb69e5e193f9c071edb42a2.svg" align="middle" width="100.49325pt" height="27.77577pt"/>
+<img alt="$ \frac{1}{128} + \frac{1}{256} + \frac{1}{512} + \frac{1}{512} = \frac{1}{64} $" src="svgs/ad496a8aca9b553ff0e5fe86ae7aa360.svg" align="middle" width="189.70743pt" height="27.77577pt"/>
+<img alt="$ \frac{1}{128} + \frac{1}{1024} $" src="svgs/a0605559efbdf8ea8ea6228c494b9ae1.svg" align="middle" width="69.90423pt" height="27.77577pt"/>
+<img alt="$ \frac{1}{256} + \frac{1}{2048} + \frac{1}{2048} = \frac{1}{256} + \frac{1}{1024} $" src="svgs/8d09c62db74e97e2c88980e160a0b878.svg" align="middle" width="215.91768pt" height="27.77577pt"/>
+<img alt="$ \frac{1}{512} + \frac{1}{2048} + \frac{1}{4096} $" src="svgs/0866a0f9670a2d772387f381a8a96dbb.svg" align="middle" width="120.150855pt" height="27.77577pt"/>
 
 
 Thank You
