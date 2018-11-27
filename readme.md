@@ -40,23 +40,23 @@ girls precisely equals the amount of boys in the country.  Well, on average.
 But why? How?
 -------------
 
-since we're here, this seems like a reasonable time to stop guessing and
+Since we're here, this seems like a reasonable time to stop guessing and
 approximating, and "do math".
 
 The amount of boys per family is 1 by definition, but since we're doing math,
 and we wouldn't want someone to accidentally understand us -- I mean, how then
 would we derive our sense of self-worth? -- let us obfuscate:
 
-<p align="center"><img alt="$$ boys/family = S_{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/4a145bf86b02591357e4f71eba2f7a52.svg" align="middle" width="356.25315pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$ boys per family = S_{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/e8932725786aea573106ed38b650b2a8.svg" align="middle" width="371.8308pt" height="44.69883pt"/></p>
 
-And here comes the magic.  We can multiply every term in the sequence by <img alt="$\frac{1}{2}$" src="svgs/47d54de4e337a06266c0e1d22c9b417b.svg" align="middle" width="6.552645pt" height="27.77577pt"/>:
-<p align="center"><img alt="$$ 2 * S_{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/5f73a5551544405ed8034e25a963727a.svg" align="middle" width="294.31215pt" height="44.69883pt"/></p>
+And here comes the magic.  We can multiply every term in the sequence by 1/2:
+<p align="center"><img alt="$$ 2 \cdot S_{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/920527dff6b7df80d3e007343f3e6962.svg" align="middle" width="290.65905pt" height="44.69883pt"/></p>
 
-We can see that the nth element of Sb(n) equals the (n+1)th element of
-<img alt="$2 * S_{b}(n)$" src="svgs/448b6230baca59b36e050096b26f7fce.svg" align="middle" width="63.07917pt" height="24.6576pt"/>.
+We can see that the nth element of <img alt="$S_{b}(n)$" src="svgs/524a91476d58c91811ce94f302e83099.svg" align="middle" width="39.33501pt" height="24.6576pt"/> equals the (n+1)th element of
+<img alt="$2 \cdot S_{b}(n)$" src="svgs/be7c2f1cfe8d61e254cd709dd2078450.svg" align="middle" width="59.426235pt" height="24.6576pt"/>.
 
 And being a little clever, we eliminate all those pesky infinite terms:
-<p align="center"><img alt="$$ 2 * S_{b}(n) - S_{b}(n) = 1 + \frac{1}/{2} - \frac{1}/{2} + \frac{1}/{4} - \frac{1}/{4} + \frac{1}/{8} - \frac{1}/{8} + ... = 1 $$" src="svgs/b28f5797dc57445b22123eb819f35192.svg" align="middle" width="459.41775pt" height="37.099755pt"/></p>
+<p align="center"><img alt="$$ 2 \cdot S_{b}(n) - S_{b}(n) = 1 + \frac{1}{2} - \frac{1}{2} + \frac{1}{4} - \frac{1}{4} + \frac{1}{8} - \frac{1}{8} + ... = 1 $$" src="svgs/525251e7b095f7b750a749582d537ae5.svg" align="middle" width="406.44945pt" height="32.9901pt"/></p>
 
 <p align="center"><img alt="$$S_{b}(n) = 1$$" src="svgs/4c4ccc9f2de2ad744a0b34270f627a0c.svg" align="middle" width="69.471765pt" height="16.438356pt"/></p>
 
