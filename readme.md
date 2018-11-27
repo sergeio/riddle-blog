@@ -30,7 +30,7 @@ boy per family.  Look at us.  We're doing math.  Girls are a tiny bit more
 complicated.  One quarter of families have one girl, an eighth have two girls,
 and so on.
 
-1/4 + 2/8 + 3/16 + 4/32 + 5/64 + 6/128 + 7/256 + 8/512 + 9/1024 = .99 girls/fam
+<p align="center"><img alt="$$ \frac{1},{4} + \frac{2},{8} + \frac{3},{16} + \frac{4},{32} + \frac{5},{64} + \frac{6},{128} + \frac{7},{256} + \frac{8},{512} + \frac{9},{1024} = .99 girls/fam $$" src="svgs/363a3869d590da0cd8273df897fcd285.svg" align="middle" width="559.8219pt" height="36.18648pt"/></p>
 
 Whoa!  They're making a comeback, and we're only 9 terms into this infinite
 sum.  I renounce my intuition and would now guess that somehow, the amount of
@@ -47,18 +47,18 @@ The amount of boys per family is 1 by definition, but since we're doing math,
 and we wouldn't want someone to accidentally understand us -- I mean, how then
 would we derive our sense of self-worth? -- let us obfuscate:
 
-boys/family = Sb(n) = sum(.5^n) for n in (1, infinity) = 1/2 + 1/4 + 1/8 + ...
+<p align="center"><img alt="$$ boys/family = S{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1},{2} + \frac{1},{4} + \frac{1},{8} + ... $$" src="svgs/5ca9131f80d393946f3009566a5ed655.svg" align="middle" width="382.30995pt" height="44.69883pt"/></p>
 
-And here comes the magic.  We can multiply every term in the sequence by 1/2:
-2 * Sb(n) = sum(.5^n) for n in (0, infinity) = 1 + 1/2 + 1/4 + 1/8 + ...
-<img alt="$2 * Sb(n) = sum(.5^n) for n in (0, infinity) = 1 + 1/2 + 1/4 + 1/8 + ...$" src="svgs/e03ffa0c1c47c9b6cf40b00ff897ed7c.svg" align="middle" width="491.128605pt" height="24.6576pt"/>
+And here comes the magic.  We can multiply every term in the sequence by <img alt="$\frac{1},{2}$" src="svgs/516fe87fb4e74d3fe1f7db69ade18f89.svg" align="middle" width="16.744365pt" height="27.77577pt"/>:
+<p align="center"><img alt="$$ 2 * S{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1},{2} + \frac{1},{4} + \frac{1},{8} + ... $$" src="svgs/5b85abfcb0b03ea96ae65e12545f8074.svg" align="middle" width="320.36895pt" height="44.69883pt"/></p>
 
 We can see that the nth element of Sb(n) equals the (n+1)th element of
-2 * Sb(n).
+<img alt="$2 * S{b}(n)$" src="svgs/33db686c110c8122ded01121f99137de.svg" align="middle" width="64.4787pt" height="24.6576pt"/>.
 
 And being a little clever, we eliminate all those pesky infinite terms:
-2 * Sb(n) - Sb(n) = 1 + 1/2 - 1/2 + 1/4 - 1/4 + 1/8 - 1/8 + ... = 1
-Sb(n) = 1
+<p align="center"><img alt="$$ 2 * S{b}(n) - S{b}(n) = 1 + \frac{1}/{2} - \frac{1}/{2} + \frac{1}/{4} - \frac{1}/{4} + \frac{1}/{8} - \frac{1}/{8} + ... = 1 $$" src="svgs/3159c71497894d128ecb50c5c51fb91f.svg" align="middle" width="462.21615pt" height="37.099755pt"/></p>
+
+<p align="center"><img alt="$$S{b}(n) = 1$$" src="svgs/b1a5f33e13f6393bec5d4caffdb036cb.svg" align="middle" width="70.871295pt" height="16.438356pt"/></p>
 
 
 
@@ -67,7 +67,7 @@ Sb(n) = 1
 
 another one
 
-<p align="center"><img alt="$$\sum\limits_{n=1}^\infty \frac{1}{2^n} $$" src="svgs/c30f5d7a05b80c41ecd23d4109765b9a.svg" align="middle" width="46.649295pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$$$" src="svgs/f1fd19f04d53a15bbc21f4179282c5d5.svg" align="middle" width="0.0pt" height="0.0pt"/></p>
 
 <p align="center"><img alt="$$\sum\limits_{n=2}^\infty \frac{n}{2^n} $$" src="svgs/37d30664d7eea87fa863b1116c16f402.svg" align="middle" width="46.649295pt" height="44.69883pt"/></p>
 
