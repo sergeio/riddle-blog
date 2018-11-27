@@ -110,17 +110,15 @@ If we think about it, we can show that each term
 So that's how I'll calculate each line below: take the previous line, divide
 by 2, and add the next power of 1/2:
 
-<img alt="$ \frac{1}{4} $" src="svgs/a01ae6d9e2cde028961d1d3790596f76.svg" align="middle" width="6.552645pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{8} + \frac{1}{8} = \frac{1}{4} $" src="svgs/4ef4cec6052018c5a3be4f93515f3f76.svg" align="middle" width="69.556905pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{8} + \frac{1}{16} $" src="svgs/f589ba46bddb6f6ae209e3073b17a75d.svg" align="middle" width="43.694145pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{16} + \frac{1}{32} + \frac{1}{32} = \frac{1}{8} $" src="svgs/dbf713a664e947656c4548c25b8d852d.svg" align="middle" width="119.80353pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{16} + \frac{1}{64} $" src="svgs/37e06f17f2c4090984bcb2c2646e0452.svg" align="middle" width="50.246625pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{32} + \frac{1}{128} + \frac{1}{128} = \frac{1}{32} + \frac{1}{64} $" src="svgs/0b319c817ea2c41e1a1788066b0b1581.svg" align="middle" width="176.60313pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{64} + \frac{1}{128} + \frac{1}{256} $" src="svgs/fd7412447fb69e5e193f9c071edb42a2.svg" align="middle" width="100.49325pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{128} + \frac{1}{256} + \frac{1}{512} + \frac{1}{512} = \frac{1}{64} $" src="svgs/ad496a8aca9b553ff0e5fe86ae7aa360.svg" align="middle" width="189.70743pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{128} + \frac{1}{1024} $" src="svgs/a0605559efbdf8ea8ea6228c494b9ae1.svg" align="middle" width="69.90423pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{256} + \frac{1}{2048} + \frac{1}{2048} = \frac{1}{256} + \frac{1}{1024} $" src="svgs/8d09c62db74e97e2c88980e160a0b878.svg" align="middle" width="215.91768pt" height="27.77577pt"/>
-<img alt="$ \frac{1}{512} + \frac{1}{2048} + \frac{1}{4096} $" src="svgs/0866a0f9670a2d772387f381a8a96dbb.svg" align="middle" width="120.150855pt" height="27.77577pt"/>
+<img alt="$ f(2) = \frac{1}{4} $" src="svgs/34932512ed36f249e3c73ce1498145f1.svg" align="middle" width="61.26483pt" height="27.77577pt"/>
+<img alt="$ f(3) = \frac{1}{8} + \frac{1}{8} = \frac{1}{4} $" src="svgs/3549ec4a11c92577d2d68525627803cd.svg" align="middle" width="124.269255pt" height="27.77577pt"/>
+<img alt="$ f(4) = \frac{1}{8} + \frac{1}{16} $" src="svgs/47927f60265f8a30ee7b249699e18b5a.svg" align="middle" width="98.40633pt" height="27.77577pt"/>
+<img alt="$ f(5) = \frac{1}{16} + \frac{1}{32} + \frac{1}{32} = \frac{1}{8} $" src="svgs/0500581bf8c1f7842b12b557dfbd08d9.svg" align="middle" width="174.515055pt" height="27.77577pt"/>
+<img alt="$ f(6) = \frac{1}{16} + \frac{1}{64} $" src="svgs/7edd375b8435dcede3b204968ea6f1c2.svg" align="middle" width="104.958975pt" height="27.77577pt"/>
+<img alt="$ f(7) = \frac{1}{32} + \frac{1}{128} + \frac{1}{128} = \frac{1}{32} + \frac{1}{64} $" src="svgs/f65c40a7cfc3606ff57b6355c9864e92.svg" align="middle" width="231.314655pt" height="27.77577pt"/>
+<img alt="$ f(8) = \frac{1}{64} + \frac{1}{128} + \frac{1}{256} $" src="svgs/d15041132d55e13e2a631b580f8ec698.svg" align="middle" width="155.205435pt" height="27.77577pt"/>
+<img alt="$ f(9) = \frac{1}{128} + \frac{1}{256} + \frac{1}{512} + \frac{1}{512} = \frac{1}{64} $" src="svgs/04421e642c94b250d8abf5ac561212b9.svg" align="middle" width="244.420605pt" height="27.77577pt"/>
+<img alt="$ f(10) = \frac{1}{128} + \frac{1}{1024} $" src="svgs/d5889c09da81f9081d6cf351f60c0c8d.svg" align="middle" width="132.835725pt" height="27.77577pt"/>
 
 And now we stare.
 

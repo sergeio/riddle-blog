@@ -110,17 +110,15 @@ $ f(n) = \frac{f(n-1)}{2} + \frac{1}{2^n} $
 So that's how I'll calculate each line below: take the previous line, divide
 by 2, and add the next power of 1/2:
 
-$ \frac{1}{4} $
-$ \frac{1}{8} + \frac{1}{8} = \frac{1}{4} $
-$ \frac{1}{8} + \frac{1}{16} $
-$ \frac{1}{16} + \frac{1}{32} + \frac{1}{32} = \frac{1}{8} $
-$ \frac{1}{16} + \frac{1}{64} $
-$ \frac{1}{32} + \frac{1}{128} + \frac{1}{128} = \frac{1}{32} + \frac{1}{64} $
-$ \frac{1}{64} + \frac{1}{128} + \frac{1}{256} $
-$ \frac{1}{128} + \frac{1}{256} + \frac{1}{512} + \frac{1}{512} = \frac{1}{64} $
-$ \frac{1}{128} + \frac{1}{1024} $
-$ \frac{1}{256} + \frac{1}{2048} + \frac{1}{2048} = \frac{1}{256} + \frac{1}{1024} $
-$ \frac{1}{512} + \frac{1}{2048} + \frac{1}{4096} $
+$ f(2) = \frac{1}{4} $
+$ f(3) = \frac{1}{8} + \frac{1}{8} = \frac{1}{4} $
+$ f(4) = \frac{1}{8} + \frac{1}{16} $
+$ f(5) = \frac{1}{16} + \frac{1}{32} + \frac{1}{32} = \frac{1}{8} $
+$ f(6) = \frac{1}{16} + \frac{1}{64} $
+$ f(7) = \frac{1}{32} + \frac{1}{128} + \frac{1}{128} = \frac{1}{32} + \frac{1}{64} $
+$ f(8) = \frac{1}{64} + \frac{1}{128} + \frac{1}{256} $
+$ f(9) = \frac{1}{128} + \frac{1}{256} + \frac{1}{512} + \frac{1}{512} = \frac{1}{64} $
+$ f(10) = \frac{1}{128} + \frac{1}{1024} $
 
 And now we stare.
 
