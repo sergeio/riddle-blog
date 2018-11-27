@@ -74,7 +74,7 @@ the sum of an infinite sum:
 
 Now let's formalize the amount of girls in this country:
 
-<p align="center"><img alt="$$ \mathrm{girls\ per\ family} = S_{g} = \sum\limits_{n=2}^\infty \frac{n}{2^n} $$" src="svgs/b41cb260923466995c21381c2a649b8d.svg" align="middle" width="217.75545pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$ \mathrm{girls\ per\ family} = S_{g} = \sum\limits_{n=2}^\infty \frac{n}{2^n} = \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + ... $$" src="svgs/fc41bf32a52515b5393b385ac4eb385d.svg" align="middle" width="360.3303pt" height="44.69883pt"/></p>
 
 This sum has a slightly different form, so we can't use the general formula we
 just came up with.  But, you might notice that <img alt="$\frac{d}{dx} x^n = n x^{n-1}$" src="svgs/30cf0c20cb6e6569c2bb27d7fea5bf20.svg" align="middle" width="100.745205pt" height="28.92648pt"/>,
@@ -102,7 +102,19 @@ Let's try something less fancy.
 But why? How? (Round 2)
 -----------------------
 
-abc
+Test
+
+<img alt="$ \fraction{1},{4} $" src="svgs/caa80b4d740f9230bfc05a675767cf7a.svg" align="middle" width="23.744325pt" height="21.18732pt"/>
+<img alt="$ \fraction{1},{8} + \fraction{1},{8} = \fraction{1},{4} $" src="svgs/ed4d36bd4a3770b22d9eb794aff6b5dc.svg" align="middle" width="113.24181pt" height="21.18732pt"/>
+<img alt="$ \fraction{1},{8} + \fraction{1},{16} $" src="svgs/b6e414316e9a6e2ea2d3f30d178d177c.svg" align="middle" width="75.79902pt" height="21.18732pt"/>
+<img alt="$ \fraction{1},{16} + \fraction{1},{32} + \fraction{1},{32} = \fraction{1},{8} $" src="svgs/b8ca0a38c74b10d39bdd46a795526d60.svg" align="middle" width="181.735455pt" height="21.18732pt"/>
+<img alt="$ \fraction{1},{16} + \fraction{1},{64} $" src="svgs/30a497823140ad29640f5fbeee09c47b.svg" align="middle" width="84.01833pt" height="21.18732pt"/>
+<img alt="$ \fraction{1},{32} + \fraction{1},{128} + \fraction{1},{128} = \fraction{1},{32} + \fraction{1},{64} $" src="svgs/251d9ab53a57eb2ab995472aec4de2ea.svg" align="middle" width="258.447255pt" height="21.18732pt"/>
+<img alt="$ \fraction{1},{64} + \fraction{1},{128} + \fraction{1},{256} $" src="svgs/6e0344834a8f61a4fb30c8efc9d35ca8.svg" align="middle" width="152.511315pt" height="21.18732pt"/>
+<img alt="$ \fraction{1},{128} + \fraction{1},{256} + \fraction{1},{512} + \fraction{1},{512} = \fraction{1},{64} $" src="svgs/3161f540e97983932b6b59731533ebb5.svg" align="middle" width="274.886205pt" height="21.18732pt"/>
+<img alt="$ \fraction{1},{128} + \fraction{1},{1024} $" src="svgs/d4e886647b4ed9216a4a0cd4682aadcb.svg" align="middle" width="108.67593pt" height="21.18732pt"/>
+<img alt="$ \fraction{1},{256} + \fraction{1},{2048} + \fraction{1},{2048} = \fraction{1},{256} + \fraction{1},{1024} $" src="svgs/594a50829a7df1f4b4b074250284b71e.svg" align="middle" width="307.762455pt" height="21.18732pt"/>
+<img alt="$ \fraction{1},{512} + \fraction{1},{2048} + \fraction{1},{4096} $" src="svgs/ece8871787b1a6167db0b7e3fc8431f8.svg" align="middle" width="177.168255pt" height="21.18732pt"/>
 
 Thank You
 ---------

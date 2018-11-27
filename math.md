@@ -74,7 +74,7 @@ $$ \sum\limits_{n=0}^\infty x^n = \frac{1}{1-x} $$
 
 Now let's formalize the amount of girls in this country:
 
-$$ \mathrm{girls\ per\ family} = S_{g} = \sum\limits_{n=2}^\infty \frac{n}{2^n} $$
+$$ \mathrm{girls\ per\ family} = S_{g} = \sum\limits_{n=2}^\infty \frac{n}{2^n} = \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + ... $$
 
 This sum has a slightly different form, so we can't use the general formula we
 just came up with.  But, you might notice that $\frac{d}{dx} x^n = n x^{n-1}$,
@@ -102,7 +102,19 @@ Let's try something less fancy.
 But why? How? (Round 2)
 -----------------------
 
-abc
+Test
+
+$ \fraction{1},{4} $
+$ \fraction{1},{8} + \fraction{1},{8} = \fraction{1},{4} $
+$ \fraction{1},{8} + \fraction{1},{16} $
+$ \fraction{1},{16} + \fraction{1},{32} + \fraction{1},{32} = \fraction{1},{8} $
+$ \fraction{1},{16} + \fraction{1},{64} $
+$ \fraction{1},{32} + \fraction{1},{128} + \fraction{1},{128} = \fraction{1},{32} + \fraction{1},{64} $
+$ \fraction{1},{64} + \fraction{1},{128} + \fraction{1},{256} $
+$ \fraction{1},{128} + \fraction{1},{256} + \fraction{1},{512} + \fraction{1},{512} = \fraction{1},{64} $
+$ \fraction{1},{128} + \fraction{1},{1024} $
+$ \fraction{1},{256} + \fraction{1},{2048} + \fraction{1},{2048} = \fraction{1},{256} + \fraction{1},{1024} $
+$ \fraction{1},{512} + \fraction{1},{2048} + \fraction{1},{4096} $
 
 Thank You
 ---------
