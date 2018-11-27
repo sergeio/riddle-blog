@@ -104,17 +104,18 @@ But why? How? (Round 2)
 
 Test
 
-<img alt="$ \fraction{1},{4} $" src="svgs/caa80b4d740f9230bfc05a675767cf7a.svg" align="middle" width="23.744325pt" height="21.18732pt"/>
-<img alt="$ \fraction{1},{8} + \fraction{1},{8} = \fraction{1},{4} $" src="svgs/ed4d36bd4a3770b22d9eb794aff6b5dc.svg" align="middle" width="113.24181pt" height="21.18732pt"/>
-<img alt="$ \fraction{1},{8} + \fraction{1},{16} $" src="svgs/b6e414316e9a6e2ea2d3f30d178d177c.svg" align="middle" width="75.79902pt" height="21.18732pt"/>
-<img alt="$ \fraction{1},{16} + \fraction{1},{32} + \fraction{1},{32} = \fraction{1},{8} $" src="svgs/b8ca0a38c74b10d39bdd46a795526d60.svg" align="middle" width="181.735455pt" height="21.18732pt"/>
-<img alt="$ \fraction{1},{16} + \fraction{1},{64} $" src="svgs/30a497823140ad29640f5fbeee09c47b.svg" align="middle" width="84.01833pt" height="21.18732pt"/>
-<img alt="$ \fraction{1},{32} + \fraction{1},{128} + \fraction{1},{128} = \fraction{1},{32} + \fraction{1},{64} $" src="svgs/251d9ab53a57eb2ab995472aec4de2ea.svg" align="middle" width="258.447255pt" height="21.18732pt"/>
-<img alt="$ \fraction{1},{64} + \fraction{1},{128} + \fraction{1},{256} $" src="svgs/6e0344834a8f61a4fb30c8efc9d35ca8.svg" align="middle" width="152.511315pt" height="21.18732pt"/>
-<img alt="$ \fraction{1},{128} + \fraction{1},{256} + \fraction{1},{512} + \fraction{1},{512} = \fraction{1},{64} $" src="svgs/3161f540e97983932b6b59731533ebb5.svg" align="middle" width="274.886205pt" height="21.18732pt"/>
-<img alt="$ \fraction{1},{128} + \fraction{1},{1024} $" src="svgs/d4e886647b4ed9216a4a0cd4682aadcb.svg" align="middle" width="108.67593pt" height="21.18732pt"/>
-<img alt="$ \fraction{1},{256} + \fraction{1},{2048} + \fraction{1},{2048} = \fraction{1},{256} + \fraction{1},{1024} $" src="svgs/594a50829a7df1f4b4b074250284b71e.svg" align="middle" width="307.762455pt" height="21.18732pt"/>
-<img alt="$ \fraction{1},{512} + \fraction{1},{2048} + \fraction{1},{4096} $" src="svgs/ece8871787b1a6167db0b7e3fc8431f8.svg" align="middle" width="177.168255pt" height="21.18732pt"/>
+<img alt="$ \fraction{1}{4} $" src="svgs/39d6d090ff091f9d21016d4901bd98ff.svg" align="middle" width="16.438455pt" height="21.18732pt"/>
+<img alt="$ \fraction{1}{8} + \fraction{1}{8} = \fraction{1}{4} $" src="svgs/0fd4c213fcd61c0dcedf6f8feefec458.svg" align="middle" width="91.3242pt" height="21.18732pt"/>
+<img alt="$ \fraction{1}{8} + \fraction{1}{16} $" src="svgs/45eeb59c49ac9838db86ce0877f3d1d2.svg" align="middle" width="61.18728pt" height="21.18732pt"/>
+<img alt="$ \fraction{1}{16} + \fraction{1}{32} + \fraction{1}{32} = \fraction{1}{8} $" src="svgs/93b71f96157b65defd74604ebcb0c488.svg" align="middle" width="152.511315pt" height="21.18732pt"/>
+<img alt="$ \fraction{1}{16} + \fraction{1}{64} $" src="svgs/2da600fec7bc9426411e536a40b122d1.svg" align="middle" width="69.406425pt" height="21.18732pt"/>
+<img alt="$ \fraction{1}{32} + \fraction{1}{128} + \fraction{1}{128} = \fraction{1}{32} + \fraction{1}{64} $" src="svgs/ebf73e9a59c81700cdee2daa161ce2ef.svg" align="middle" width="221.917905pt" height="21.18732pt"/>
+<img alt="$ \fraction{1}{64} + \fraction{1}{128} + \fraction{1}{256} $" src="svgs/8d17e11bf93701b6217f5280561603ff.svg" align="middle" width="130.593705pt" height="21.18732pt"/>
+<img alt="$ \fraction{1}{128} + \fraction{1}{256} + \fraction{1}{512} + \fraction{1}{512} = \fraction{1}{64} $" src="svgs/eb946fdbea4ced05b86f1f05384ea4f3.svg" align="middle" width="238.356855pt" height="21.18732pt"/>
+<img alt="$ \fraction{1}{128} + \fraction{1}{1024} $" src="svgs/f106c199b167d93db535b50c67b73d5b.svg" align="middle" width="94.06419pt" height="21.18732pt"/>
+<img alt="$ \fraction{1}{256} + \fraction{1}{2048} + \fraction{1}{2048} = \fraction{1}{256} + \fraction{1}{1024} $" src="svgs/f7b195a4f4256a07d6e406a7b58227a4.svg" align="middle" width="271.233105pt" height="21.18732pt"/>
+<img alt="$ \fraction{1}{512} + \fraction{1}{2048} + \fraction{1}{4096} $" src="svgs/05bdb31d93e6fbe701597c007ccfcf3a.svg" align="middle" width="155.251305pt" height="21.18732pt"/>
+
 
 Thank You
 ---------

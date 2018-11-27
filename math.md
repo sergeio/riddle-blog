@@ -104,17 +104,18 @@ But why? How? (Round 2)
 
 Test
 
-$ \fraction{1},{4} $
-$ \fraction{1},{8} + \fraction{1},{8} = \fraction{1},{4} $
-$ \fraction{1},{8} + \fraction{1},{16} $
-$ \fraction{1},{16} + \fraction{1},{32} + \fraction{1},{32} = \fraction{1},{8} $
-$ \fraction{1},{16} + \fraction{1},{64} $
-$ \fraction{1},{32} + \fraction{1},{128} + \fraction{1},{128} = \fraction{1},{32} + \fraction{1},{64} $
-$ \fraction{1},{64} + \fraction{1},{128} + \fraction{1},{256} $
-$ \fraction{1},{128} + \fraction{1},{256} + \fraction{1},{512} + \fraction{1},{512} = \fraction{1},{64} $
-$ \fraction{1},{128} + \fraction{1},{1024} $
-$ \fraction{1},{256} + \fraction{1},{2048} + \fraction{1},{2048} = \fraction{1},{256} + \fraction{1},{1024} $
-$ \fraction{1},{512} + \fraction{1},{2048} + \fraction{1},{4096} $
+$ \fraction{1}{4} $
+$ \fraction{1}{8} + \fraction{1}{8} = \fraction{1}{4} $
+$ \fraction{1}{8} + \fraction{1}{16} $
+$ \fraction{1}{16} + \fraction{1}{32} + \fraction{1}{32} = \fraction{1}{8} $
+$ \fraction{1}{16} + \fraction{1}{64} $
+$ \fraction{1}{32} + \fraction{1}{128} + \fraction{1}{128} = \fraction{1}{32} + \fraction{1}{64} $
+$ \fraction{1}{64} + \fraction{1}{128} + \fraction{1}{256} $
+$ \fraction{1}{128} + \fraction{1}{256} + \fraction{1}{512} + \fraction{1}{512} = \fraction{1}{64} $
+$ \fraction{1}{128} + \fraction{1}{1024} $
+$ \fraction{1}{256} + \fraction{1}{2048} + \fraction{1}{2048} = \fraction{1}{256} + \fraction{1}{1024} $
+$ \fraction{1}{512} + \fraction{1}{2048} + \fraction{1}{4096} $
+
 
 Thank You
 ---------
