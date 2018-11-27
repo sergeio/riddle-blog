@@ -30,7 +30,7 @@ boy per family.  Look at us.  We're doing math.  Girls are a tiny bit more
 complicated.  One quarter of families have one girl, an eighth have two girls,
 and so on.
 
-$$ \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + \frac{4}{32} + \frac{5}{64} + \frac{6}{128} + \frac{7}{256} + \frac{8}{512} + \frac{9}{1024} = .99 girls/fam $$
+$$ \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + \frac{4}{32} + \frac{5}{64} + \frac{6}{128} + \frac{7}{256} + \frac{8}{512} + \frac{9}{1024} = .99\ \mathrm{girls/fam} $$
 
 Whoa!  They're making a comeback, and we're only 9 terms into this infinite
 sum.  I renounce my intuition and would now guess that somehow, the amount of
@@ -47,7 +47,7 @@ The amount of boys per family is 1 by definition, but since we're doing math,
 and we wouldn't want someone to accidentally understand us -- I mean, how then
 would we derive our sense of self-worth? -- let us obfuscate:
 
-$$ boys per family = S_{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
+$$ \mathrm{boys per family} = S_{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
 
 And here comes the magic.  We can multiply every term in the sequence by 1/2:
 $$ 2 \cdot S_{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
@@ -63,15 +63,7 @@ $$S_{b}(n) = 1$$
 
 
 
-$E = \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}$
-
-another one
-
-$$$$
-
 $$\sum\limits_{n=2}^\infty \frac{n}{2^n} $$
-
-
 
 boys per family = 1
 
@@ -80,5 +72,10 @@ Similarly,
 girls per family = sum(n/(2^(n+1))) for n = (1, infinity)
 girls per family = 1/2 * sum(n/(2^n)) for n = (1, infinity)
 
+
+Thank You
+---------
+... to leegao/readme2tex, because github doesn't natively support latex in
+readmes.
 
 [riddle]: https://quomodocumque.wordpress.com/2011/01/10/the-google-puzzle-and-the-perils-of-averaging-ratios/

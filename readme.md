@@ -30,7 +30,7 @@ boy per family.  Look at us.  We're doing math.  Girls are a tiny bit more
 complicated.  One quarter of families have one girl, an eighth have two girls,
 and so on.
 
-<p align="center"><img alt="$$ \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + \frac{4}{32} + \frac{5}{64} + \frac{6}{128} + \frac{7}{256} + \frac{8}{512} + \frac{9}{1024} = .99 girls/fam $$" src="svgs/64912ade791bb3255eea3920db3eb4ee.svg" align="middle" width="485.8491pt" height="32.9901pt"/></p>
+<p align="center"><img alt="$$ \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + \frac{4}{32} + \frac{5}{64} + \frac{6}{128} + \frac{7}{256} + \frac{8}{512} + \frac{9}{1024} = .99\ \mathrm{girls/fam} $$" src="svgs/54a81835533055a79d6cba61b9ab389e.svg" align="middle" width="480.70275pt" height="32.9901pt"/></p>
 
 Whoa!  They're making a comeback, and we're only 9 terms into this infinite
 sum.  I renounce my intuition and would now guess that somehow, the amount of
@@ -47,7 +47,7 @@ The amount of boys per family is 1 by definition, but since we're doing math,
 and we wouldn't want someone to accidentally understand us -- I mean, how then
 would we derive our sense of self-worth? -- let us obfuscate:
 
-<p align="center"><img alt="$$ boys per family = S_{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/e8932725786aea573106ed38b650b2a8.svg" align="middle" width="371.8308pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$ \mathrm{boys per family} = S_{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/94e0f77bc80068b670b88e1ac9009dd8.svg" align="middle" width="364.99815pt" height="44.69883pt"/></p>
 
 And here comes the magic.  We can multiply every term in the sequence by 1/2:
 <p align="center"><img alt="$$ 2 \cdot S_{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/920527dff6b7df80d3e007343f3e6962.svg" align="middle" width="290.65905pt" height="44.69883pt"/></p>
@@ -63,15 +63,7 @@ And being a little clever, we eliminate all those pesky infinite terms:
 
 
 
-<img alt="$E = \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}$" src="svgs/bd03775d716dc07295041dad665bb7bc.svg" align="middle" width="83.313285pt" height="36.29604pt"/>
-
-another one
-
-<p align="center"><img alt="$$$$" src="svgs/f1fd19f04d53a15bbc21f4179282c5d5.svg" align="middle" width="0.0pt" height="0.0pt"/></p>
-
 <p align="center"><img alt="$$\sum\limits_{n=2}^\infty \frac{n}{2^n} $$" src="svgs/37d30664d7eea87fa863b1116c16f402.svg" align="middle" width="46.649295pt" height="44.69883pt"/></p>
-
-
 
 boys per family = 1
 
@@ -80,5 +72,10 @@ Similarly,
 girls per family = sum(n/(2^(n+1))) for n = (1, infinity)
 girls per family = 1/2 * sum(n/(2^n)) for n = (1, infinity)
 
+
+Thank You
+---------
+... to leegao/readme2tex, because github doesn't natively support latex in
+readmes.
 
 [riddle]: https://quomodocumque.wordpress.com/2011/01/10/the-google-puzzle-and-the-perils-of-averaging-ratios/
