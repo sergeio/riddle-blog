@@ -70,6 +70,7 @@ another one
 $$$$
 
 $$\sum\limits_{n=2}^\infty \frac{n}{2^n} $$
+$$\sum\limits_{n=2}^\infty \frac{n}{3^n} $$
 
 
 

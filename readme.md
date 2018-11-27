@@ -70,6 +70,7 @@ another one
 <p align="center"><img alt="$$$$" src="svgs/f1fd19f04d53a15bbc21f4179282c5d5.svg" align="middle" width="0.0pt" height="0.0pt"/></p>
 
 <p align="center"><img alt="$$\sum\limits_{n=2}^\infty \frac{n}{2^n} $$" src="svgs/37d30664d7eea87fa863b1116c16f402.svg" align="middle" width="46.649295pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$\sum\limits_{n=2}^\infty \frac{n}{3^n} $$" src="svgs/16a55895e568c8c306972bed32b00a55.svg" align="middle" width="46.649295pt" height="44.69883pt"/></p>
 
 
 
