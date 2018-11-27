@@ -69,6 +69,8 @@ another one
 
 $$\sum\limits_{n=1}^\infty \frac{1}{2^n} $$
 
+$$\sum\limits_{n=2}^\infty \frac{n}{2^n} $$
+
 
 
 boys per family = 1
