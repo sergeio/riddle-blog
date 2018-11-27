@@ -1,8 +1,8 @@
 I recently came across a [riddle]:
 
-    There’s a certain country where everybody wants to have a son. Therefore
-    each couple keeps having children until they have a boy; then they stop.
-    What fraction of the population is female?
+> There’s a certain country where everybody wants to have a son. Therefore each
+> couple keeps having children until they have a boy; then they stop.  What
+> fraction of the population is female?
 
 
 Guess and test
@@ -30,7 +30,7 @@ boy per family.  Look at us.  We're doing math.  Girls are a tiny bit more
 complicated.  One quarter of families have one girl, an eighth have two girls,
 and so on.
 
-$$ \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + \frac{4}{32} + \frac{5}{64} + \frac{6}{128} + \frac{7}{256} + \frac{8}{512} + \frac{9}{1024} = .99\ \mathrm{girls/fam} $$
+$$ \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + \frac{4}{32} + \frac{5}{64} + \frac{6}{128} + \frac{7}{256} + \frac{8}{512} + \frac{9}{1024} = .99\ \mathrm{girls\ per\ family} $$
 
 Whoa!  They're making a comeback, and we're only 9 terms into this infinite
 sum.  I renounce my intuition and would now guess that somehow, the amount of
@@ -47,35 +47,66 @@ The amount of boys per family is 1 by definition, but since we're doing math,
 and we wouldn't want someone to accidentally understand us -- I mean, how then
 would we derive our sense of self-worth? -- let us obfuscate:
 
-$$ \mathrm{boys per family} = S_{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
+$$ \mathrm{boys\ per\ family} = S_{b} = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
 
 And here comes the magic.  We can multiply every term in the sequence by 1/2:
-$$ 2 \cdot S_{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
 
-We can see that the nth element of $S_{b}(n)$ equals the (n+1)th element of
-$2 \cdot S_{b}(n)$.
+$$ 2 \cdot S_{b} = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
+
+We can see that the nth element of $S_{b}$ equals the (n+1)th element of
+$2 \cdot S_{b}$.
 
 And being a little clever, we eliminate all those pesky infinite terms:
-$$ 2 \cdot S_{b}(n) - S_{b}(n) = 1 + \frac{1}{2} - \frac{1}{2} + \frac{1}{4} - \frac{1}{4} + \frac{1}{8} - \frac{1}{8} + ... = 1 $$
 
-$$S_{b}(n) = 1$$
+$$ 2 \cdot S_{b} - S_{b} = 1 + \frac{1}{2} - \frac{1}{2} + \frac{1}{4} - \frac{1}{4} + \frac{1}{8} - \frac{1}{8} + ... = 1 $$
+
+$$S_{b} = 1$$
+
+So now we're back where we started, with the added benefit of alienating some
+people.  Let's keep going; maybe it'll be useful.
+
+We can use the exact same reasoning as above to get a more general formula for
+the sum of an infinite sum:
+
+$$ \sum\limits_{n=0}^\infty x^n = \frac{1}{1-x} $$
+> so long as the series converges, it'll converge to this.
+
+Now let's formalize the amount of girls in this country:
+
+$$ \mathrm{girls\ per\ family} = S_{g} = \sum\limits_{n=2}^\infty \frac{n}{2^n} $$
+
+This sum has a slightly different form, so we can't use the general formula we
+just came up with.  But, you might notice that $\frac{d}{dx} x^n = n x^{n-1}$,
+which _does_ match the form of $S_{g}$.
+
+So let's follow that clue:
+
+$$ \sum\limits_{n=0}^\infty x^n = \frac{1}{1-x} $$
+$$ \frac{d}{dx} \sum\limits_{n=0}^\infty x^n = \frac{d}{dx} \frac{1}{1-x} $$
+$$ \sum\limits_{n=0}^\infty n x^n = \frac{1}{(x-1)^2} $$
+
+And shuffling some things around:
+
+$$ S_{b} = 1 $$
+
+So here we are.  We've been good.  We didn't just take formulas from an oracle
+and plug things in -- we derived them.  And while I feel fairly confident that
+the answer is correct, doing all this symbol manipulation brings me no
+intuitive satisfaction for _why_ or _how_ those two infinite sequences converge
+to the same value.
 
 
+But why? How? (Round 2)
+-----------------------
 
-
-$$\sum\limits_{n=2}^\infty \frac{n}{2^n} $$
-
-boys per family = 1
-
-Similarly,
-
-girls per family = sum(n/(2^(n+1))) for n = (1, infinity)
-girls per family = 1/2 * sum(n/(2^n)) for n = (1, infinity)
-
+abc
 
 Thank You
 ---------
-... to leegao/readme2tex, because github doesn't natively support latex in
+... to [leegao/readme2tex], because github doesn't natively support latex in
 readmes.
 
 [riddle]: https://quomodocumque.wordpress.com/2011/01/10/the-google-puzzle-and-the-perils-of-averaging-ratios/
+[leegao/readme2tex]: https://github.com/leegao/readme2tex
+
+

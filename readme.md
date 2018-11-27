@@ -1,8 +1,8 @@
 I recently came across a [riddle]:
 
-    There’s a certain country where everybody wants to have a son. Therefore
-    each couple keeps having children until they have a boy; then they stop.
-    What fraction of the population is female?
+> There’s a certain country where everybody wants to have a son. Therefore each
+> couple keeps having children until they have a boy; then they stop.  What
+> fraction of the population is female?
 
 
 Guess and test
@@ -30,7 +30,7 @@ boy per family.  Look at us.  We're doing math.  Girls are a tiny bit more
 complicated.  One quarter of families have one girl, an eighth have two girls,
 and so on.
 
-<p align="center"><img alt="$$ \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + \frac{4}{32} + \frac{5}{64} + \frac{6}{128} + \frac{7}{256} + \frac{8}{512} + \frac{9}{1024} = .99\ \mathrm{girls/fam} $$" src="svgs/54a81835533055a79d6cba61b9ab389e.svg" align="middle" width="480.70275pt" height="32.9901pt"/></p>
+<p align="center"><img alt="$$ \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + \frac{4}{32} + \frac{5}{64} + \frac{6}{128} + \frac{7}{256} + \frac{8}{512} + \frac{9}{1024} = .99\ \mathrm{girls\ per\ family} $$" src="svgs/237f0c714ed9520af3d7038e551559d8.svg" align="middle" width="524.8122pt" height="32.9901pt"/></p>
 
 Whoa!  They're making a comeback, and we're only 9 terms into this infinite
 sum.  I renounce my intuition and would now guess that somehow, the amount of
@@ -47,35 +47,66 @@ The amount of boys per family is 1 by definition, but since we're doing math,
 and we wouldn't want someone to accidentally understand us -- I mean, how then
 would we derive our sense of self-worth? -- let us obfuscate:
 
-<p align="center"><img alt="$$ \mathrm{boys per family} = S_{b}(n) = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/94e0f77bc80068b670b88e1ac9009dd8.svg" align="middle" width="364.99815pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$ \mathrm{boys\ per\ family} = S_{b} = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/82ec63b44a1141a7cdd27542d87f3c00.svg" align="middle" width="353.3046pt" height="44.69883pt"/></p>
 
 And here comes the magic.  We can multiply every term in the sequence by 1/2:
-<p align="center"><img alt="$$ 2 \cdot S_{b}(n) = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/920527dff6b7df80d3e007343f3e6962.svg" align="middle" width="290.65905pt" height="44.69883pt"/></p>
 
-We can see that the nth element of <img alt="$S_{b}(n)$" src="svgs/524a91476d58c91811ce94f302e83099.svg" align="middle" width="39.33501pt" height="24.6576pt"/> equals the (n+1)th element of
-<img alt="$2 \cdot S_{b}(n)$" src="svgs/be7c2f1cfe8d61e254cd709dd2078450.svg" align="middle" width="59.426235pt" height="24.6576pt"/>.
+<p align="center"><img alt="$$ 2 \cdot S_{b} = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/985fe21125c26508e9480a1f6e88f971.svg" align="middle" width="268.0062pt" height="44.69883pt"/></p>
+
+We can see that the nth element of <img alt="$S_{b}$" src="svgs/c4a75d21c4e375d513e6c8d7db547012.svg" align="middle" width="15.86079pt" height="22.46574pt"/> equals the (n+1)th element of
+<img alt="$2 \cdot S_{b}$" src="svgs/953eed524506c9a1fef161f7a97489e0.svg" align="middle" width="35.952015pt" height="22.46574pt"/>.
 
 And being a little clever, we eliminate all those pesky infinite terms:
-<p align="center"><img alt="$$ 2 \cdot S_{b}(n) - S_{b}(n) = 1 + \frac{1}{2} - \frac{1}{2} + \frac{1}{4} - \frac{1}{4} + \frac{1}{8} - \frac{1}{8} + ... = 1 $$" src="svgs/525251e7b095f7b750a749582d537ae5.svg" align="middle" width="406.44945pt" height="32.9901pt"/></p>
 
-<p align="center"><img alt="$$S_{b}(n) = 1$$" src="svgs/4c4ccc9f2de2ad744a0b34270f627a0c.svg" align="middle" width="69.471765pt" height="16.438356pt"/></p>
+<p align="center"><img alt="$$ 2 \cdot S_{b} - S_{b} = 1 + \frac{1}{2} - \frac{1}{2} + \frac{1}{4} - \frac{1}{4} + \frac{1}{8} - \frac{1}{8} + ... = 1 $$" src="svgs/fe01fd285b080a7198f5aad637d909fb.svg" align="middle" width="361.1454pt" height="32.9901pt"/></p>
+
+<p align="center"><img alt="$$S_{b} = 1$$" src="svgs/69f709cece5a8c9da7288ebfe4a4fb49.svg" align="middle" width="46.819575pt" height="13.698597pt"/></p>
+
+So now we're back where we started, with the added benefit of alienating some
+people.  Let's keep going; maybe it'll be useful.
+
+We can use the exact same reasoning as above to get a more general formula for
+the sum of an infinite sum:
+
+<p align="center"><img alt="$$ \sum\limits_{n=0}^\infty x^n = \frac{1}{1-x} $$" src="svgs/5804112b234b942dc2184f91669a6d00.svg" align="middle" width="107.448165pt" height="44.69883pt"/></p>
+> so long as the series converges, it'll converge to this.
+
+Now let's formalize the amount of girls in this country:
+
+<p align="center"><img alt="$$ \mathrm{girls\ per\ family} = S_{g} = \sum\limits_{n=2}^\infty \frac{n}{2^n} $$" src="svgs/b41cb260923466995c21381c2a649b8d.svg" align="middle" width="217.75545pt" height="44.69883pt"/></p>
+
+This sum has a slightly different form, so we can't use the general formula we
+just came up with.  But, you might notice that <img alt="$\frac{d}{dx} x^n = n x^{n-1}$" src="svgs/30cf0c20cb6e6569c2bb27d7fea5bf20.svg" align="middle" width="100.745205pt" height="28.92648pt"/>,
+which _does_ match the form of <img alt="$S_{g}$" src="svgs/76ec708901184af488b1203c510733ca.svg" align="middle" width="16.9059pt" height="22.46574pt"/>.
+
+So let's follow that clue:
+
+<p align="center"><img alt="$$ \sum\limits_{n=0}^\infty x^n = \frac{1}{1-x} $$" src="svgs/5804112b234b942dc2184f91669a6d00.svg" align="middle" width="107.448165pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$ \frac{d}{dx} \sum\limits_{n=0}^\infty x^n = \frac{d}{dx} \frac{1}{1-x} $$" src="svgs/f165f54d8d32d9b3054535f7dee18798.svg" align="middle" width="152.007405pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$ \sum\limits_{n=0}^\infty n x^n = \frac{1}{(x-1)^2} $$" src="svgs/955bbc883e00d6c0351368b71a3da6ea.svg" align="middle" width="137.474865pt" height="44.69883pt"/></p>
+
+And shuffling some things around:
+
+<p align="center"><img alt="$$ S_{b} = 1 $$" src="svgs/07a16a464dd9f5ee0ee9f151c94b3871.svg" align="middle" width="46.819575pt" height="13.698597pt"/></p>
+
+So here we are.  We've been good.  We didn't just take formulas from an oracle
+and plug things in -- we derived them.  And while I feel fairly confident that
+the answer is correct, doing all this symbol manipulation brings me no
+intuitive satisfaction for _why_ or _how_ those two infinite sequences converge
+to the same value.
 
 
+But why? How? (Round 2)
+-----------------------
 
-
-<p align="center"><img alt="$$\sum\limits_{n=2}^\infty \frac{n}{2^n} $$" src="svgs/37d30664d7eea87fa863b1116c16f402.svg" align="middle" width="46.649295pt" height="44.69883pt"/></p>
-
-boys per family = 1
-
-Similarly,
-
-girls per family = sum(n/(2^(n+1))) for n = (1, infinity)
-girls per family = 1/2 * sum(n/(2^n)) for n = (1, infinity)
-
+abc
 
 Thank You
 ---------
-... to leegao/readme2tex, because github doesn't natively support latex in
+... to [leegao/readme2tex], because github doesn't natively support latex in
 readmes.
 
 [riddle]: https://quomodocumque.wordpress.com/2011/01/10/the-google-puzzle-and-the-perils-of-averaging-ratios/
+[leegao/readme2tex]: https://github.com/leegao/readme2tex
+
+
