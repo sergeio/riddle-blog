@@ -251,16 +251,16 @@ This should be enough.  Let's obfuscate!
 
 The entire box $ S_{g} $ is made up of 4 quarters:
 
-$ \mathrm{topleft} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $
-$ \mathrm{topright} = \frac{1}{4} S_{g} $
-$ \mathrm{bottomleft} = \frac{1}{4} $
-$ \mathrm{bottomright} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $
+$$ \mathrm{topleft} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $$
+$$ \mathrm{topright} = \frac{1}{4} S_{g} $$
+$$ \mathrm{bottomleft} = \frac{1}{4} $$
+$$ \mathrm{bottomright} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $$
 
 And they sum up to $ S_{g} $:
 
-$ S_{g} = \frac{1}{4} + \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) + \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) + \frac{1}{4} S_{g} $
-$ \frac{3}{4} S_{g} = \frac{1}{4} + \frac{1}{2}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) = \frac{3}{4} $
-$ S_{g} = 1 $
+$$ S_{g} = \frac{1}{4} + \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) + \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) + \frac{1}{4} S_{g} $$
+$$ \frac{3}{4} S_{g} = \frac{1}{4} + \frac{1}{2}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) = \frac{3}{4} $$
+$$ S_{g} = 1 $$
 
 🎉🎉🎉🎉 We did it!  We drew a picture.  And it turned out to be made of parts
 that were either infinite sums whose values we'd already calculated, or itself

@@ -251,16 +251,16 @@ This should be enough.  Let's obfuscate!
 
 The entire box <img alt="$ S_{g} $" src="svgs/1ca5dd82ed7a72b3b4fee71c09ac4308.svg" align="middle" width="16.9059pt" height="22.46574pt"/> is made up of 4 quarters:
 
-<img alt="$ \mathrm{topleft} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $" src="svgs/2c7e6dc68dd5e7bd283ef4ed51ebcd59.svg" align="middle" width="138.30168pt" height="41.14176pt"/>
-<img alt="$ \mathrm{topright} = \frac{1}{4} S_{g} $" src="svgs/352faded64d87db0fa814b9137a109db.svg" align="middle" width="107.358075pt" height="27.77577pt"/>
-<img alt="$ \mathrm{bottomleft} = \frac{1}{4} $" src="svgs/6c741bb14929e7b6b48058b890eb0581.svg" align="middle" width="106.24218pt" height="27.77577pt"/>
-<img alt="$ \mathrm{bottomright} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $" src="svgs/97c0f70dc554b1765c798bc750508835.svg" align="middle" width="178.074105pt" height="41.14176pt"/>
+<p align="center"><img alt="$$ \mathrm{topleft} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $$" src="svgs/d97c0575f3857ca4561089662baa7181.svg" align="middle" width="142.521555pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$ \mathrm{topright} = \frac{1}{4} S_{g} $$" src="svgs/f3df4df1ccf52ad9a249eebde1a14bab.svg" align="middle" width="109.024575pt" height="32.9901pt"/></p>
+<p align="center"><img alt="$$ \mathrm{bottomleft} = \frac{1}{4} $$" src="svgs/c1bd5e90211176cb39e38a40545d28df.svg" align="middle" width="107.90868pt" height="32.9901pt"/></p>
+<p align="center"><img alt="$$ \mathrm{bottomright} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $$" src="svgs/4e602ec1daf9a90acec5ce89e6264602.svg" align="middle" width="182.29365pt" height="44.69883pt"/></p>
 
 And they sum up to <img alt="$ S_{g} $" src="svgs/1ca5dd82ed7a72b3b4fee71c09ac4308.svg" align="middle" width="16.9059pt" height="22.46574pt"/>:
 
-<img alt="$ S_{g} = \frac{1}{4} + \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) + \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) + \frac{1}{4} S_{g} $" src="svgs/1e615cb1a48b6398c150efb6f4496e3c.svg" align="middle" width="276.524655pt" height="41.14176pt"/>
-<img alt="$ \frac{3}{4} S_{g} = \frac{1}{4} + \frac{1}{2}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) = \frac{3}{4} $" src="svgs/6c42dd20b31959bd6570ed10813ac4e4.svg" align="middle" width="178.55343pt" height="41.14176pt"/>
-<img alt="$ S_{g} = 1 $" src="svgs/0b70777b9f51077b5ac4caf1d6a5bd88.svg" align="middle" width="47.864685pt" height="22.46574pt"/>
+<p align="center"><img alt="$$ S_{g} = \frac{1}{4} + \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) + \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) + \frac{1}{4} S_{g} $$" src="svgs/c22fecf1acd482a5062d30af4395d58f.svg" align="middle" width="288.2979pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$ \frac{3}{4} S_{g} = \frac{1}{4} + \frac{1}{2}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) = \frac{3}{4} $$" src="svgs/93b490ffd97289d96f78b5ba19a2adae.svg" align="middle" width="187.7733pt" height="44.69883pt"/></p>
+<p align="center"><img alt="$$ S_{g} = 1 $$" src="svgs/08ca43336175c9f6bb34139b3df7e938.svg" align="middle" width="47.864685pt" height="15.93603pt"/></p>
 
 🎉🎉🎉🎉 We did it!  We drew a picture.  And it turned out to be made of parts
 that were either infinite sums whose values we'd already calculated, or itself
