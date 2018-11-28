@@ -171,11 +171,54 @@ wave our hands and claim this means the sum of the series approaches 1.
 
 Let's try visualizing an infinite sum that doesn't converge to 1.  That is to
 say, something that won't fill the box up all the way:
-<img alt="$ \sum\limits_{n=1}^\infty \frac{1}{4^n} $" src="svgs/c13722c2d4ffa0d7a65de0fc018bff9a.svg" align="middle" width="44.096085pt" height="41.14176pt"/>
+<img alt="$ S_{q} = \sum\limits_{n=1}^\infty \frac{1}{4^n} $" src="svgs/183f048910dbdf6127bacf5ec6ab5ca5.svg" align="middle" width="83.35338pt" height="41.14176pt"/>
 
 Now we'll want each subsequent box to have 1/4 the area of the preceeding one.
 
 <img src="images/one-fourth^n-bottom.svg" width="512" height="512">
+
+I'm not totally sure what to make of that, and I think we could make a prettier
+visualization.  Let's try:
+
+<img src="images/one-fourth^n-middle.svg" width="512" height="512">
+
+At this point, I notice that besides being prettier, this second visualization
+of our series is a perfect compliment to our first one.  Well, almost perfect.
+We'd need a third to completely fill up the box.
+
+<img src="images/one-fourth^n-all.svg" width="512" height="512">
+
+Each of the three colors in the above image represents our sum
+<img alt="$ S_{q} = \sum\limits_{n=1}^\infty \frac{1}{4^n} $" src="svgs/183f048910dbdf6127bacf5ec6ab5ca5.svg" align="middle" width="83.35338pt" height="41.14176pt"/>.
+
+And 3 of them fill up the box: <img alt="$ 3 \cdot S_{q} = 1 $" src="svgs/97bd8160f6a5edae549da9a5f180cae4.svg" align="middle" width="67.56783pt" height="22.46574pt"/>.
+
+Therefore <img alt="$ S_{q} = 1$" src="svgs/537e21536b8571aeef7f5aa3b2c8caed.svg" align="middle" width="47.476605pt" height="22.46574pt"/>.
+
+My intuition is appeased.  This makes sense.
+
+### Another way
+
+Before we move on, there's another intuitive way to show that <img alt="$ S_{q} = 1 $" src="svgs/c33b2e375f347a576e2e207b9687cb76.svg" align="middle" width="47.476605pt" height="22.46574pt"/>.
+
+<img src="images/one-fourth^n-middle.svg" width="512" height="512">
+
+Because the images we are using to visualize are self-similar, we can do a
+little bit of magic on them.  Notice that the bottom-right quarter of the above
+image (and, of each of our other visualizations of <img alt="$ S_{q} $" src="svgs/4f845ae6692add53e6133769b4f7a66b.svg" align="middle" width="16.51782pt" height="22.46574pt"/>) has exactly the
+same shape as the whole square, just shrunk by a factor of 4.  In fact, we
+could refer to the bottom-right quarter as <img alt="$ \frac{1}{4} S_{q} $" src="svgs/627e7696248f73d31e149a4640dd67b6.svg" align="middle" width="25.04304pt" height="27.77577pt"/>.
+
+Once we've done that, we can get rid of all those infinite boxes.  If we
+subtract the areas shaded in the bottom-right quarter from the whole square,
+the only thing left shaded is the top-right quarter.  Its area is 1/4.
+
+<p align="center"><img alt="$$ S_{q} - \frac{1}{4} S_{q} = \frac{1}{4} $$" src="svgs/35ff1976a2e671869a8e7b167de62071.svg" align="middle" width="99.044385pt" height="32.9901pt"/></p>
+<p align="center"><img alt="$$ \frac{3}{4} S_{q} = \frac{1}{4} $$" src="svgs/0e190f05c1dd44dec75aba956c5e9111.svg" align="middle" width="59.6409pt" height="32.9901pt"/></p>
+<p align="center"><img alt="$$ S_{q} = \frac{1}{3} $$" src="svgs/d39e1469ef6b64c7985b2f523c4901b9.svg" align="middle" width="49.449015pt" height="32.9901pt"/></p>
+
+This is a visual representation of the "magic" we performed in the first
+[But why? How?](#But why? How?) section.
 
 
 Thank You

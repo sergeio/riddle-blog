@@ -171,11 +171,54 @@ wave our hands and claim this means the sum of the series approaches 1.
 
 Let's try visualizing an infinite sum that doesn't converge to 1.  That is to
 say, something that won't fill the box up all the way:
-$ \sum\limits_{n=1}^\infty \frac{1}{4^n} $
+$ S_{q} = \sum\limits_{n=1}^\infty \frac{1}{4^n} $
 
 Now we'll want each subsequent box to have 1/4 the area of the preceeding one.
 
 <img src="images/one-fourth^n-bottom.svg" width="512" height="512">
+
+I'm not totally sure what to make of that, and I think we could make a prettier
+visualization.  Let's try:
+
+<img src="images/one-fourth^n-middle.svg" width="512" height="512">
+
+At this point, I notice that besides being prettier, this second visualization
+of our series is a perfect compliment to our first one.  Well, almost perfect.
+We'd need a third to completely fill up the box.
+
+<img src="images/one-fourth^n-all.svg" width="512" height="512">
+
+Each of the three colors in the above image represents our sum
+$ S_{q} = \sum\limits_{n=1}^\infty \frac{1}{4^n} $.
+
+And 3 of them fill up the box: $ 3 \cdot S_{q} = 1 $.
+
+Therefore $ S_{q} = 1$.
+
+My intuition is appeased.  This makes sense.
+
+### Another way
+
+Before we move on, there's another intuitive way to show that $ S_{q} = 1 $.
+
+<img src="images/one-fourth^n-middle.svg" width="512" height="512">
+
+Because the images we are using to visualize are self-similar, we can do a
+little bit of magic on them.  Notice that the bottom-right quarter of the above
+image (and, of each of our other visualizations of $ S_{q} $) has exactly the
+same shape as the whole square, just shrunk by a factor of 4.  In fact, we
+could refer to the bottom-right quarter as $ \frac{1}{4} S_{q} $.
+
+Once we've done that, we can get rid of all those infinite boxes.  If we
+subtract the areas shaded in the bottom-right quarter from the whole square,
+the only thing left shaded is the top-right quarter.  Its area is 1/4.
+
+$$ S_{q} - \frac{1}{4} S_{q} = \frac{1}{4} $$
+$$ \frac{3}{4} S_{q} = \frac{1}{4} $$
+$$ S_{q} = \frac{1}{3} $$
+
+This is a visual representation of the "magic" we performed in the first
+[But why? How?](#But why? How?) section.
 
 
 Thank You
