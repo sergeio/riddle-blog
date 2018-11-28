@@ -40,8 +40,8 @@ girls precisely equals the amount of boys in the country.  Well, on average.
 But why? How?
 -------------
 
-Since we're here, this seems like a reasonable time to stop guessing and
-approximating, and "do math".
+Since we're here, this seems like a reasonable time to stop guessing and "do
+math".
 
 The amount of boys per family is 1 by definition, but since we're doing math,
 and we wouldn't want someone to accidentally understand us -- I mean, how then
@@ -237,7 +237,7 @@ The shape doesn't have any obvious complements, so we can't rely on the method
 we found in [Something a teeny bit different](#something-a-teeny-bit-different).
 But it is self-similar!
 
-Just as in [Another way](#another-way), we can see say that the top-right
+Just as in [Another way](#another-way), we can see that the top-right
 quarter of our box is exactly the same as the entire box, just shrunk by a
 factor of 4.  And the top-left quarter looks just like
 <img alt="$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $" src="svgs/dd8b88355ca8c6ec10f0e38bacc69fb3.svg" align="middle" width="44.096085pt" height="41.14176pt"/>, (which we've already shown to
@@ -272,22 +272,23 @@ of their quarters, and this last one is self-similar to the whole square".
 
 <img src="images/n-over-2^n.svg" width="512" height="512">
 
-I am still delighted by the fact that the amount of girls on-average equals the
-amount of boys in that strange country that is unsuccessfully discriminating
-against girls.  But now I feel like I kind of understand how it happens.
+I'm still delighted by the puzzle, though (because?) it remains
+counterintuitive.  But I now feel like I kind of understand _how_ the girls'
+population catches up.  And I added a couple more arcane spells to my
+collection.  It's been a good week.
 
 
 Epilogue
 --------
 
-There's a lot we didn't cover here.  Like why does the top-right corner have so
-much more unshaded space than previous visualizations?  Does the answer to this
+There's a lot we didn't cover here.  Why does the top-right corner have so much
+more unshaded space than previous visualizations?  Does the answer to this
 question [depend](https://mathoverflow.net/a/17963) on the population of the
 country?  What about the case where families have conceived girls, but hadn't
 gotten to a boy?  (I'd say that the main reason mathematicians find this
 [riddle] so contentious is this detail).
 
-But sometimes we have to be content with what is, and not dwell on what isn't.
+Sometimes we have to be content with what is, and not dwell on what isn't.
 
 Thanks for reading!
 
