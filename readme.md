@@ -127,7 +127,7 @@ Somehow when we sum all the lines together, (in the reduced form) there are
 exactly two 1/4s, adding up to 1/2, two 1/8s, adding up to 1/4, two 1/16s, just
 one 1/32, but three 1/64s to make up for it.
 
-I see how this is mimicing <img alt="$\sum\limits_{n=1}^\infty \frac{1}{2^n}$" src="svgs/b3c22d2be0ea06d07531028973594abb.svg" align="middle" width="44.096085pt" height="41.14176pt"/>, and I get
+I see how this is mimicking <img alt="$\sum\limits_{n=1}^\infty \frac{1}{2^n}$" src="svgs/b3c22d2be0ea06d07531028973594abb.svg" align="middle" width="44.096085pt" height="41.14176pt"/>, and I get
 another little kick of dopamine from my brain, having somehow connected two
 seemingly unconnected things.  But for all that, I just don't see the pattern.
 I see that it works, but I don't understand why it must.
@@ -154,7 +154,7 @@ of it, then another 1/4, then 1/8, and so on:
 
 <img src="images/one-half^n-i1.svg" width="512" height="512">
 
-Each subsequent box has half the heighth of the previous, hence half the area.
+Each subsequent box has half the height of the previous, hence half the area.
 And still, we see the box filling up to the point that drawing additional boxes
 is difficult even with computer assistance.
 
@@ -173,7 +173,7 @@ Let's try visualizing an infinite sum that doesn't converge to 1.  That is to
 say, something that won't fill the box up all the way:
 <img alt="$ S_{q} = \sum\limits_{n=1}^\infty \frac{1}{4^n} $" src="svgs/183f048910dbdf6127bacf5ec6ab5ca5.svg" align="middle" width="83.35338pt" height="41.14176pt"/>
 
-Now we'll want each subsequent box to have 1/4 the area of the preceeding one.
+Now we'll want each subsequent box to have 1/4 the area of the preceding one.
 
 <img src="images/one-fourth^n-bottom.svg" width="512" height="512">
 
@@ -183,7 +183,7 @@ visualization.  Let's try:
 <img src="images/one-fourth^n-middle.svg" width="512" height="512">
 
 At this point, I notice that besides being prettier, this second visualization
-of our series is a perfect compliment to our first one.  Well, almost perfect.
+of our series is a perfect complement to our first one.  Well, almost perfect.
 We'd need a third to completely fill up the box.
 
 <img src="images/one-fourth^n-all.svg" width="512" height="512">
@@ -193,13 +193,14 @@ Each of the three colors in the above image represents our sum
 
 And 3 of them fill up the box: <img alt="$ 3 \cdot S_{q} = 1 $" src="svgs/97bd8160f6a5edae549da9a5f180cae4.svg" align="middle" width="67.56783pt" height="22.46574pt"/>.
 
-Therefore <img alt="$ S_{q} = 1$" src="svgs/537e21536b8571aeef7f5aa3b2c8caed.svg" align="middle" width="47.476605pt" height="22.46574pt"/>.
+Therefore <img alt="$ S_{q} = \frac{1}{3} $" src="svgs/0fae6ed3c0ccff59ab9efc80cd648824.svg" align="middle" width="47.782515pt" height="27.77577pt"/>.
 
 My intuition is appeased.  This makes sense.
 
 ### Another way
 
-Before we move on, there's another intuitive way to show that <img alt="$ S_{q} = 1 $" src="svgs/c33b2e375f347a576e2e207b9687cb76.svg" align="middle" width="47.476605pt" height="22.46574pt"/>.
+Before we move on, there's another intuitive way to show that
+<img alt="$ S_{q} = \frac{1}{3} $" src="svgs/0fae6ed3c0ccff59ab9efc80cd648824.svg" align="middle" width="47.782515pt" height="27.77577pt"/>.
 
 <img src="images/one-fourth^n-middle.svg" width="512" height="512">
 
@@ -219,6 +220,74 @@ the only thing left shaded is the top-right quarter.  Its area is 1/4.
 
 This is a visual representation of the "magic" we performed in the first
 [But why? How?](#but-why-how-round-3) section.
+
+# The main event
+
+But enough diversions.  We are here to figure out why / how
+<img alt="$ S_{g} = \sum\limits_{n=2}^\infty \frac{n}{2^n} = \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + ... = 1 $" src="svgs/651f99477584f1a8ec85d8208476c67c.svg" align="middle" width="249.786405pt" height="41.14176pt"/>
+
+So let's draw it:
+
+<img src="images/n-over-2^n.svg" width="512" height="512">
+
+It's pretty.  And it seems to be filling up the box?  Well, except for that
+top-right corner.  What's going on there?
+
+The shape doesn't have any obvious complements, so we can't rely on the method
+we found in [Something a teeny bit different](#something-a-teeny-bit-different).
+But it is self-similar!
+
+Just as in [Another way](#another-way), we can see say that the top-right
+quarter of our box is exactly the same as the entire box, just shrunk by a
+factor of 4.  And the top-left quarter looks just like
+<img alt="$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $" src="svgs/dd8b88355ca8c6ec10f0e38bacc69fb3.svg" align="middle" width="44.096085pt" height="41.14176pt"/>, shrunk by a factor of 4.  Miracles!
+
+And the bottom-right quarter is exactly the same as the top-right, just rotated
+90 degrees clockwise.
+
+We've already shown <img alt="$ \sum\limits_{n=1}^\infty \frac{1}{2^n} = 1 $" src="svgs/c93e35189e92af827e5cfbc39e6f5b1c.svg" align="middle" width="76.20558pt" height="41.14176pt"/>, and we can
+see that bottom-left quarter is shaded in completely, so its area is 1/4.
+
+This should be enough.
+
+The entire box <img alt="$ S_{g} $" src="svgs/1ca5dd82ed7a72b3b4fee71c09ac4308.svg" align="middle" width="16.9059pt" height="22.46574pt"/> is made up of 4 quarters:
+<img alt="$ \mathrm{Top-left} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $" src="svgs/1bc9f11f06071c06caafdee308336eed.svg" align="middle" width="162.503055pt" height="41.14176pt"/>
+<img alt="$ \mathrm{Top-right} = \frac{1}{4} S_{g} $" src="svgs/bd40b1cace5b3f2b2fc207987a4c1de9.svg" align="middle" width="131.55879pt" height="27.77577pt"/>
+<img alt="$ \mathrm{Bottom-left} = \frac{1}{4} $" src="svgs/68376667e049f3abb7874ad2e7a40b24.svg" align="middle" width="128.38815pt" height="27.77577pt"/>
+<img alt="$ \mathrm{Bottom-right} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $" src="svgs/954b22200d49ba7ef9e88cccec6685aa.svg" align="middle" width="200.218755pt" height="41.14176pt"/>
+
+And they sum up to <img alt="$ S_{g} $" src="svgs/1ca5dd82ed7a72b3b4fee71c09ac4308.svg" align="middle" width="16.9059pt" height="22.46574pt"/>:
+
+<img alt="$ S_{g} = \frac{1}{4} + \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) + \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) + \frac{1}{4} S_{g} $" src="svgs/1e615cb1a48b6398c150efb6f4496e3c.svg" align="middle" width="276.524655pt" height="41.14176pt"/>
+<img alt="$ \frac{3}{4} S_{g} = \frac{1}{4} + \frac{1}{2}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) = \frac{3}{4} $" src="svgs/6c42dd20b31959bd6570ed10813ac4e4.svg" align="middle" width="178.55343pt" height="41.14176pt"/>
+<img alt="$ S_{g} = 1 $" src="svgs/0b70777b9f51077b5ac4caf1d6a5bd88.svg" align="middle" width="47.864685pt" height="22.46574pt"/>
+
+🎉🎉🎉🎉 We did it!  We drew a picture.  And it turned out to be made of parts
+that were either infinite sums whose values we'd already calculated, or itself
+shrunken down.
+
+Now I can stare at this picture and say "Well, that quarter is fully shaded, so
+I know its value.  These two quarters are clearly converging to filling up each
+of their quarters, and this last one is self-similar to the whole square".
+
+<img src="images/n-over-2^n.svg" width="512" height="512">
+
+I am still delighted by the fact that the amount of girls on-average equals the
+amount of boys in that strange country that is unsuccessfully discriminating
+against girls.  But now I feel like I kind of understand how it happens.
+
+
+Epilogue
+--------
+
+There's a lot we didn't cover here.  Like why does the top-right corner have so
+much more unshaded space than previous visualizations?  Does the answer to this
+question [depend](https://mathoverflow.net/a/17963) on the population of the
+country?  What about the case where families have conceived girls, but hadn't
+gotten to a boy?  (I'd say that the main reason mathematicians find this
+[riddle] so contentious is this detail).
+
+But sometimes we have to be content with what is, and not dwell on what isn't.
 
 
 Thank You
