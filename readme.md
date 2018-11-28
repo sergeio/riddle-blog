@@ -102,7 +102,8 @@ Let's try something less fancy.
 But why? How? (Round 2)
 -----------------------
 
-Let's try looking at the values of <img alt="$ f(n) = \frac{n}{2^n} $" src="svgs/7064a75d9914205d6af48b46a08ac6e5.svg" align="middle" width="70.973925pt" height="24.6576pt"/> for n = 2, 3,..
+Let's try looking at the values of <img alt="$ f(n) = \frac{n}{2^n} $" src="svgs/7064a75d9914205d6af48b46a08ac6e5.svg" align="middle" width="70.973925pt" height="24.6576pt"/>.  Remember that
+<img alt="$ S_{g} = \sum\limits_{n=2}^\infty \frac{n}{2^n} = \sum\limits_{n=2}^\infty f(n) $" src="svgs/d283109e471a27784ba84f8a966efea8.svg" align="middle" width="167.611455pt" height="41.14176pt"/>
 
 If we think about it, we can show that each term
 <img alt="$ f(n) = \frac{f(n-1)}{2} + \frac{1}{2^n} $" src="svgs/a2f7e337fef90a35244afeab47f7f71f.svg" align="middle" width="137.9367pt" height="33.20559pt"/>
@@ -123,11 +124,10 @@ by 2, and add the next power of 1/2:
 And now we stare.
 
 Somehow when we sum all the lines together, (in the reduced form) there are
-exactly 2 <img alt="$\frac{1}{4}$" src="svgs/56ea6e9aad5379d31310f1b27831a265.svg" align="middle" width="6.552645pt" height="27.77577pt"/>s, adding up to <img alt="$\frac{1}{2}$" src="svgs/47d54de4e337a06266c0e1d22c9b417b.svg" align="middle" width="6.552645pt" height="27.77577pt"/>, 2 <img alt="$\frac{1}{8}$" src="svgs/9d1730c1a86e4200a94d2cdc3c0ce16b.svg" align="middle" width="6.552645pt" height="27.77577pt"/>s, adding
-up to <img alt="$\frac{1}{4}$" src="svgs/56ea6e9aad5379d31310f1b27831a265.svg" align="middle" width="6.552645pt" height="27.77577pt"/>, 2 <img alt="$\frac{1}{16}$" src="svgs/98709d8535132dfcec87760d6670b180.svg" align="middle" width="13.105125pt" height="27.77577pt"/>s, 1 <img alt="$\frac{1}{32}$" src="svgs/14e3e7a756f90321fd697daf02511579.svg" align="middle" width="13.105125pt" height="27.77577pt"/>, but 3 <img alt="$\frac{1}{64}$" src="svgs/756e354024ac13b6afedaa3474c46428.svg" align="middle" width="13.105125pt" height="27.77577pt"/>s
-to make up for it.
+exactly two 1/4s, adding up to 1/2, two 1/8s, adding up to 1/4, two 1/16s, just
+one 1/32, but three 1/64s to make up for it.
 
-I see how this is mimicing <img alt="$\sum\limits_{n=2}^\infty \frac{1}{2^n}$" src="svgs/197559dff969f5df6ceecf196eb555b1.svg" align="middle" width="44.096085pt" height="41.14176pt"/>, and I get
+I see how this is mimicing <img alt="$\sum\limits_{n=1}^\infty \frac{1}{2^n}$" src="svgs/b3c22d2be0ea06d07531028973594abb.svg" align="middle" width="44.096085pt" height="41.14176pt"/>, and I get
 another little kick of dopamine from my brain, having somehow connected two
 seemingly unconnected things.  But for all that, I just don't see the pattern.
 I see that it works, but I don't understand why it must.
