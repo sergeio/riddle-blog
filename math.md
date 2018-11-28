@@ -193,13 +193,14 @@ $ S_{q} = \sum\limits_{n=1}^\infty \frac{1}{4^n} $.
 
 And 3 of them fill up the box: $ 3 \cdot S_{q} = 1 $.
 
-Therefore $ S_{q} = 1$.
+Therefore $ S_{q} = \frac{1}{3} $.
 
 My intuition is appeased.  This makes sense.
 
 ### Another way
 
-Before we move on, there's another intuitive way to show that $ S_{q} = 1 $.
+Before we move on, there's another intuitive way to show that
+$ S_{q} = \frac{1}{3} $.
 
 <img src="images/one-fourth^n-middle.svg" width="512" height="512">
 
@@ -219,6 +220,7 @@ $$ S_{q} = \frac{1}{3} $$
 
 This is a visual representation of the "magic" we performed in the first
 [But why? How?](#but-why-how-round-3) section.
+
 
 
 Thank You
