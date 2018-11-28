@@ -9,7 +9,7 @@ Guess and test
 --------------
 
 It immediately tickled me.  Just the notion that I apparently have enough
-information to answer the question surprises me.
+information to answer the question is neat.  I'd have expected more rules.
 
 Maybe the wording "everybody wants to have a son" biased me, but I was pretty
 sure that such a country would have more sons than daughters.  But I was also
@@ -23,7 +23,7 @@ there we are: 75 boys to 25 girls, and only 25 families left to consider, and
 all of them will have boys too.  It seems difficult for the girls to make a
 comeback.  That's the feeling.
 
-Next up, I'd approximate the answer with a simulation.  Since all families have
+Next up, I'd approximate the answer with a calculator.  Since all families have
 a boy (it seems like people generally ignore the possibility of families that
 have daughters, but haven't yet conceived a son), we can say that there is 1
 boy per family.  Look at us.  We're doing math.  Girls are a tiny bit more
@@ -49,7 +49,7 @@ would we derive our sense of self-worth? -- let us obfuscate:
 
 $$ \mathrm{boys\ per\ family} = S_{b} = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
 
-And here comes the magic.  We can multiply every term in the sequence by 1/2:
+And here comes the magic.  We can multiply every term in the sequence by 2:
 
 $$ 2 \cdot S_{b} = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
 
