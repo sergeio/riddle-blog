@@ -8,11 +8,11 @@ I recently came across a [riddle]:
 Guess and test
 --------------
 
-It immediately tickled me.  Just the notion that I apparently have enough
-information to answer the question is neat.  I'd have expected more rules.
+Delightful!  That's enough information to answer the question?  I'd have
+expected more rules.
 
-Maybe the wording "everybody wants to have a son" biased me, but I was pretty
-sure that such a country would have more sons than daughters.  But I was also
+Maybe the wording "everybody wants to have a son" biased me, but I am pretty
+sure that such a country would have more sons than daughters.  But I am also
 skeptical of my intuition, since Ellenberg's bread and butter is making you
 confident you understand something, and then pulling the rug out from under
 you.  He's basically a bully, but we all have Stockholm syndrome.
@@ -32,7 +32,7 @@ and so on.
 
 <p align="center"><img alt="$$ \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + \frac{4}{32} + \frac{5}{64} + \frac{6}{128} + \frac{7}{256} + \frac{8}{512} + \frac{9}{1024} = .99\ \mathrm{girls\ per\ family} $$" src="svgs/237f0c714ed9520af3d7038e551559d8.svg" align="middle" width="524.8122pt" height="32.9901pt"/></p>
 
-Whoa!  They're making a comeback, and we're only 9 terms into this infinite
+Whoa!  They _are_ making a comeback, and we're only 9 terms into this infinite
 sum.  I renounce my intuition and would now guess that somehow, the amount of
 girls precisely equals the amount of boys in the country.  Well, on average.
 
@@ -221,7 +221,7 @@ the only thing left shaded is the top-right quarter.  Its area is 1/4.
 This is a visual representation of the "magic" we performed in the first
 [But why? How?](#but-why-how-round-3) section.
 
-# The main event
+### The main event
 
 But enough diversions.  We are here to figure out why / how
 <img alt="$ S_{g} = \sum\limits_{n=2}^\infty \frac{n}{2^n} = \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + ... = 1 $" src="svgs/651f99477584f1a8ec85d8208476c67c.svg" align="middle" width="249.786405pt" height="41.14176pt"/>
@@ -240,7 +240,7 @@ But it is self-similar!
 Just as in [Another way](#another-way), we can see say that the top-right
 quarter of our box is exactly the same as the entire box, just shrunk by a
 factor of 4.  And the top-left quarter looks just like
-<img alt="$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $" src="svgs/dd8b88355ca8c6ec10f0e38bacc69fb3.svg" align="middle" width="44.096085pt" height="41.14176pt"/>, (which we've alrady shown to
+<img alt="$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $" src="svgs/dd8b88355ca8c6ec10f0e38bacc69fb3.svg" align="middle" width="44.096085pt" height="41.14176pt"/>, (which we've already shown to
 equal 1) shrunk by a factor of 4.  Miracles!
 
 The bottom-right quarter is exactly the same as the top-left, just rotated 90

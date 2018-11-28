@@ -8,11 +8,11 @@ I recently came across a [riddle]:
 Guess and test
 --------------
 
-It immediately tickled me.  Just the notion that I apparently have enough
-information to answer the question is neat.  I'd have expected more rules.
+Delightful!  That's enough information to answer the question?  I'd have
+expected more rules.
 
-Maybe the wording "everybody wants to have a son" biased me, but I was pretty
-sure that such a country would have more sons than daughters.  But I was also
+Maybe the wording "everybody wants to have a son" biased me, but I am pretty
+sure that such a country would have more sons than daughters.  But I am also
 skeptical of my intuition, since Ellenberg's bread and butter is making you
 confident you understand something, and then pulling the rug out from under
 you.  He's basically a bully, but we all have Stockholm syndrome.
@@ -32,7 +32,7 @@ and so on.
 
 $$ \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + \frac{4}{32} + \frac{5}{64} + \frac{6}{128} + \frac{7}{256} + \frac{8}{512} + \frac{9}{1024} = .99\ \mathrm{girls\ per\ family} $$
 
-Whoa!  They're making a comeback, and we're only 9 terms into this infinite
+Whoa!  They _are_ making a comeback, and we're only 9 terms into this infinite
 sum.  I renounce my intuition and would now guess that somehow, the amount of
 girls precisely equals the amount of boys in the country.  Well, on average.
 
@@ -221,7 +221,7 @@ $$ S_{q} = \frac{1}{3} $$
 This is a visual representation of the "magic" we performed in the first
 [But why? How?](#but-why-how-round-3) section.
 
-# The main event
+### The main event
 
 But enough diversions.  We are here to figure out why / how
 $ S_{g} = \sum\limits_{n=2}^\infty \frac{n}{2^n} = \frac{1}{4} + \frac{2}{8} + \frac{3}{16} + ... = 1 $
@@ -240,7 +240,7 @@ But it is self-similar!
 Just as in [Another way](#another-way), we can see say that the top-right
 quarter of our box is exactly the same as the entire box, just shrunk by a
 factor of 4.  And the top-left quarter looks just like
-$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $, (which we've alrady shown to
+$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $, (which we've already shown to
 equal 1) shrunk by a factor of 4.  Miracles!
 
 The bottom-right quarter is exactly the same as the top-left, just rotated 90
