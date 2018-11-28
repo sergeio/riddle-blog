@@ -17,10 +17,10 @@ skeptical of my intuition, since Ellenberg's bread and butter is making you
 confident you understand something, and then pulling the rug out from under
 you.  He's basically a bully, but we all have Stockholm syndrome.
 
-So let's do some mental napkin math: there's 100 families in this country.  50
-of them will have a boy and no girls.  Another 25 will have one of each.  And
-there we are: 75 boys to 25 girls, and only 25 families left to consider, and
-all of them will have boys too.  It seems difficult for the girls to make a
+So let's do some mental napkin math: if there are 100 families in this country.
+50 of them will have a boy and no girls.  Another 25 will have one of each.
+And there we are: 75 boys to 25 girls, and only 25 families left to consider,
+and all of them will have boys too.  It seems difficult for the girls to make a
 comeback.  That's the feeling.
 
 Next up, I'd approximate the answer with a calculator.  Since all families have
