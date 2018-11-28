@@ -218,7 +218,7 @@ $$ \frac{3}{4} S_{q} = \frac{1}{4} $$
 $$ S_{q} = \frac{1}{3} $$
 
 This is a visual representation of the "magic" we performed in the first
-[But why? How?](#But why? How?) section.
+[But why? How?](#but-why-how-round-3) section.
 
 
 Thank You

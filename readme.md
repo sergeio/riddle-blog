@@ -218,7 +218,7 @@ the only thing left shaded is the top-right quarter.  Its area is 1/4.
 <p align="center"><img alt="$$ S_{q} = \frac{1}{3} $$" src="svgs/d39e1469ef6b64c7985b2f523c4901b9.svg" align="middle" width="49.449015pt" height="32.9901pt"/></p>
 
 This is a visual representation of the "magic" we performed in the first
-[But why? How?](#But why? How?) section.
+[But why? How?](#but-why-how-round-3) section.
 
 
 Thank You
