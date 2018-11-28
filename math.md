@@ -251,10 +251,11 @@ see that bottom-left quarter is shaded in completely, so its area is 1/4.
 This should be enough.
 
 The entire box $ S_{g} $ is made up of 4 quarters:
-$ \mathrm{Top-left} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $
-$ \mathrm{Top-right} = \frac{1}{4} S_{g} $
-$ \mathrm{Bottom-left} = \frac{1}{4} $
-$ \mathrm{Bottom-right} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $
+
+$ \mathrm{topleft} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $
+$ \mathrm{topright} = \frac{1}{4} S_{g} $
+$ \mathrm{bottomleft} = \frac{1}{4} $
+$ \mathrm{bottomright} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $
 
 And they sum up to $ S_{g} $:
 

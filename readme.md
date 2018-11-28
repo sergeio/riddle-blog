@@ -251,10 +251,11 @@ see that bottom-left quarter is shaded in completely, so its area is 1/4.
 This should be enough.
 
 The entire box <img alt="$ S_{g} $" src="svgs/1ca5dd82ed7a72b3b4fee71c09ac4308.svg" align="middle" width="16.9059pt" height="22.46574pt"/> is made up of 4 quarters:
-<img alt="$ \mathrm{Top-left} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $" src="svgs/1bc9f11f06071c06caafdee308336eed.svg" align="middle" width="162.503055pt" height="41.14176pt"/>
-<img alt="$ \mathrm{Top-right} = \frac{1}{4} S_{g} $" src="svgs/bd40b1cace5b3f2b2fc207987a4c1de9.svg" align="middle" width="131.55879pt" height="27.77577pt"/>
-<img alt="$ \mathrm{Bottom-left} = \frac{1}{4} $" src="svgs/68376667e049f3abb7874ad2e7a40b24.svg" align="middle" width="128.38815pt" height="27.77577pt"/>
-<img alt="$ \mathrm{Bottom-right} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $" src="svgs/954b22200d49ba7ef9e88cccec6685aa.svg" align="middle" width="200.218755pt" height="41.14176pt"/>
+
+<img alt="$ \mathrm{topleft} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $" src="svgs/2c7e6dc68dd5e7bd283ef4ed51ebcd59.svg" align="middle" width="138.30168pt" height="41.14176pt"/>
+<img alt="$ \mathrm{topright} = \frac{1}{4} S_{g} $" src="svgs/352faded64d87db0fa814b9137a109db.svg" align="middle" width="107.358075pt" height="27.77577pt"/>
+<img alt="$ \mathrm{bottomleft} = \frac{1}{4} $" src="svgs/6c741bb14929e7b6b48058b890eb0581.svg" align="middle" width="106.24218pt" height="27.77577pt"/>
+<img alt="$ \mathrm{bottomright} = \frac{1}{4}(\sum\limits_{n=1}^\infty \frac{1}{2^n}) $" src="svgs/97c0f70dc554b1765c798bc750508835.svg" align="middle" width="178.074105pt" height="41.14176pt"/>
 
 And they sum up to <img alt="$ S_{g} $" src="svgs/1ca5dd82ed7a72b3b4fee71c09ac4308.svg" align="middle" width="16.9059pt" height="22.46574pt"/>:
 
