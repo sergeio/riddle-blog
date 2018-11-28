@@ -240,13 +240,12 @@ But it is self-similar!
 Just as in [Another way](#another-way), we can see say that the top-right
 quarter of our box is exactly the same as the entire box, just shrunk by a
 factor of 4.  And the top-left quarter looks just like
-$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $, (which we've alrady shown to equal
-1) shrunk by a factor of 4.  Miracles!
+$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $, (which we've alrady shown to
+equal 1) shrunk by a factor of 4.  Miracles!
 
 The bottom-right quarter is exactly the same as the top-left, just rotated 90
-degrees clockwise.
-
-The last bottom-left quarter is shaded in completely, so its area is 1/4.
+degrees clockwise.  The last bottom-left quarter is shaded in completely, so
+its area is 1/4.
 
 This should be enough.  Let's obfuscate!
 
