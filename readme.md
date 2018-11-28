@@ -9,7 +9,7 @@ Guess and test
 --------------
 
 It immediately tickled me.  Just the notion that I apparently have enough
-information to answer the question surprises me.
+information to answer the question is neat.  I'd have expected more rules.
 
 Maybe the wording "everybody wants to have a son" biased me, but I was pretty
 sure that such a country would have more sons than daughters.  But I was also
@@ -23,7 +23,7 @@ there we are: 75 boys to 25 girls, and only 25 families left to consider, and
 all of them will have boys too.  It seems difficult for the girls to make a
 comeback.  That's the feeling.
 
-Next up, I'd approximate the answer with a simulation.  Since all families have
+Next up, I'd approximate the answer with a calculator.  Since all families have
 a boy (it seems like people generally ignore the possibility of families that
 have daughters, but haven't yet conceived a son), we can say that there is 1
 boy per family.  Look at us.  We're doing math.  Girls are a tiny bit more
@@ -49,7 +49,7 @@ would we derive our sense of self-worth? -- let us obfuscate:
 
 <p align="center"><img alt="$$ \mathrm{boys\ per\ family} = S_{b} = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/82ec63b44a1141a7cdd27542d87f3c00.svg" align="middle" width="353.3046pt" height="44.69883pt"/></p>
 
-And here comes the magic.  We can multiply every term in the sequence by 1/2:
+And here comes the magic.  We can multiply every term in the sequence by 2:
 
 <p align="center"><img alt="$$ 2 \cdot S_{b} = \sum\limits_{n=0}^\infty \frac{1}{2^n} = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$" src="svgs/985fe21125c26508e9480a1f6e88f971.svg" align="middle" width="268.0062pt" height="44.69883pt"/></p>
 
@@ -132,10 +132,50 @@ another little kick of dopamine from my brain, having somehow connected two
 seemingly unconnected things.  But for all that, I just don't see the pattern.
 I see that it works, but I don't understand why it must.
 
+
 But why? How? (Round 3)
 -----------------------
 
-Let's draw.
+Let's just start drawing things?
+
+I began drawing by hand, but quickly ran into the limits of my ability to
+draw straight lines.  So, not unlike Donald Knuth, I made [playbox] to generate
+the box images below.
+
+### Starting basic
+
+As before, let's calibrate this tool on something relatively simple (population
+of boys), before we move on to the more advanced.
+
+Recall that the number of boys per family can be expressed as
+<img alt="$ \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $" src="svgs/30f4e27c2a6736e4c2ec8863a4d04fc8.svg" align="middle" width="173.452455pt" height="41.14176pt"/>
+So if we were to draw a square, we could show it filling up by shading in 1/2
+of it, then another 1/4, then 1/8, and so on:
+
+<img src="images/one-half^n-i1.svg" width="512" height="512">
+
+Each subsequent box has half the heighth of the previous, hence half the area.
+And still, we see the box filling up to the point that drawing additional boxes
+is difficult even with computer assistance.
+
+Here's another equally valid way to visualize
+<img alt="$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $" src="svgs/dd8b88355ca8c6ec10f0e38bacc69fb3.svg" align="middle" width="44.096085pt" height="41.14176pt"/>:
+
+<img src="images/one-half^n-i2.svg" width="512" height="512">
+
+Here, we alternating halving the height and then width of the subsequent boxes,
+but the effect is the same:  the whole box is filled with color, and we can
+wave our hands and claim this means the sum of the series approaches 1.
+
+### Something a teeny bit different
+
+Let's try visualizing an infinite sum that doesn't converge to 1.  That is to
+say, something that won't fill the box up all the way:
+<img alt="$ \sum\limits_{n=1}^\infty \frac{1}{4^n} $" src="svgs/c13722c2d4ffa0d7a65de0fc018bff9a.svg" align="middle" width="44.096085pt" height="41.14176pt"/>
+
+Now we'll want each subsequent box to have 1/4 the area of the preceeding one.
+
+<img src="images/one-fourth^n-bottom.svg" width="512" height="512">
 
 
 Thank You
@@ -143,7 +183,7 @@ Thank You
 ... to [leegao/readme2tex], because github doesn't natively support latex in
 readmes.
 
+
 [riddle]: https://quomodocumque.wordpress.com/2011/01/10/the-google-puzzle-and-the-perils-of-averaging-ratios/
+[playbox]: https://github.com/sergeio/playbox
 [leegao/readme2tex]: https://github.com/leegao/readme2tex
-
-

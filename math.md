@@ -132,10 +132,50 @@ another little kick of dopamine from my brain, having somehow connected two
 seemingly unconnected things.  But for all that, I just don't see the pattern.
 I see that it works, but I don't understand why it must.
 
+
 But why? How? (Round 3)
 -----------------------
 
-Let's draw.
+Let's just start drawing things?
+
+I began drawing by hand, but quickly ran into the limits of my ability to
+draw straight lines.  So, not unlike Donald Knuth, I made [playbox] to generate
+the box images below.
+
+### Starting basic
+
+As before, let's calibrate this tool on something relatively simple (population
+of boys), before we move on to the more advanced.
+
+Recall that the number of boys per family can be expressed as
+$ \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $
+So if we were to draw a square, we could show it filling up by shading in 1/2
+of it, then another 1/4, then 1/8, and so on:
+
+<img src="images/one-half^n-i1.svg" width="512" height="512">
+
+Each subsequent box has half the heighth of the previous, hence half the area.
+And still, we see the box filling up to the point that drawing additional boxes
+is difficult even with computer assistance.
+
+Here's another equally valid way to visualize
+$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $:
+
+<img src="images/one-half^n-i2.svg" width="512" height="512">
+
+Here, we alternating halving the height and then width of the subsequent boxes,
+but the effect is the same:  the whole box is filled with color, and we can
+wave our hands and claim this means the sum of the series approaches 1.
+
+### Something a teeny bit different
+
+Let's try visualizing an infinite sum that doesn't converge to 1.  That is to
+say, something that won't fill the box up all the way:
+$ \sum\limits_{n=1}^\infty \frac{1}{4^n} $
+
+Now we'll want each subsequent box to have 1/4 the area of the preceeding one.
+
+<img src="images/one-fourth^n-bottom.svg" width="512" height="512">
 
 
 Thank You
@@ -143,7 +183,7 @@ Thank You
 ... to [leegao/readme2tex], because github doesn't natively support latex in
 readmes.
 
+
 [riddle]: https://quomodocumque.wordpress.com/2011/01/10/the-google-puzzle-and-the-perils-of-averaging-ratios/
+[playbox]: https://github.com/sergeio/playbox
 [leegao/readme2tex]: https://github.com/leegao/readme2tex
-
-
