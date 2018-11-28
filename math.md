@@ -240,15 +240,15 @@ But it is self-similar!
 Just as in [Another way](#another-way), we can see say that the top-right
 quarter of our box is exactly the same as the entire box, just shrunk by a
 factor of 4.  And the top-left quarter looks just like
-$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $, shrunk by a factor of 4.  Miracles!
+$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $, (which we've alrady shown to equal
+1) shrunk by a factor of 4.  Miracles!
 
-And the bottom-right quarter is exactly the same as the top-right, just rotated
-90 degrees clockwise.
+The bottom-right quarter is exactly the same as the top-left, just rotated 90
+degrees clockwise.
 
-We've already shown $ \sum\limits_{n=1}^\infty \frac{1}{2^n} = 1 $, and we can
-see that bottom-left quarter is shaded in completely, so its area is 1/4.
+The last bottom-left quarter is shaded in completely, so its area is 1/4.
 
-This should be enough.
+This should be enough.  Let's obfuscate!
 
 The entire box $ S_{g} $ is made up of 4 quarters:
 
@@ -289,6 +289,8 @@ gotten to a boy?  (I'd say that the main reason mathematicians find this
 [riddle] so contentious is this detail).
 
 But sometimes we have to be content with what is, and not dwell on what isn't.
+
+Thanks for reading!
 
 
 Thank You
