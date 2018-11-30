@@ -12,7 +12,7 @@ Delightful!  That's enough information to answer the question?  I'd have
 expected more rules.
 
 Maybe the wording "everybody wants to have a son" biased me, but I am pretty
-sure that such a country would have more sons than daughters.  But I am also
+sure that such a country would have more sons than daughters.  I am also
 skeptical of my intuition, since Ellenberg's bread and butter is making you
 confident you understand something, and then pulling the rug out from under
 you.  He's basically a bully, but we all have Stockholm syndrome.
@@ -23,7 +23,7 @@ And there we are: 75 boys to 25 girls, and only 25 families left to consider,
 and all of them will have boys too.  It seems difficult for the girls to make a
 comeback.  That's the feeling.
 
-Next up, I'd approximate the answer with a calculator.  Since all families have
+Next, we can approximate the answer with a calculator.  Since all families have
 a boy (it seems like people generally ignore the possibility of families that
 have daughters, but haven't yet conceived a son), we can say that there is 1
 boy per family.  Look at us.  We're doing math.  Girls are a tiny bit more
@@ -44,8 +44,7 @@ Since we're here, this seems like a reasonable time to stop guessing and "do
 math".
 
 The amount of boys per family is 1 by definition, but since we're doing math,
-and we wouldn't want someone to accidentally understand us -- I mean, how then
-would we derive our sense of self-worth? -- let us obfuscate:
+and we wouldn't want someone to accidentally understand us, let us obfuscate:
 
 $$ \mathrm{boys\ per\ family} = S_{b} = \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... $$
 
@@ -169,8 +168,8 @@ wave our hands and claim this means the sum of the series approaches 1.
 
 ### Something a teeny bit different
 
-Let's try visualizing an infinite sum that doesn't converge to 1.  That is to
-say, something that won't fill the box up all the way:
+For comparison, let's try visualizing an infinite sum that doesn't converge
+to 1.  That is to say, something that won't fill the box up all the way:
 $ S_{q} = \sum\limits_{n=1}^\infty \frac{1}{4^n} $
 
 Now we'll want each subsequent box to have 1/4 the area of the preceding one.
