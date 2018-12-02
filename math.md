@@ -280,8 +280,14 @@ collection.  It's been a good week.
 Epilogue
 --------
 
-There's a lot we didn't cover here.  Why does the top-right corner have so much
-more unshaded space than previous visualizations?  Does the answer to this
+Something exciting we could have done is take the intuition we gained from
+visualizing how the girls' population converges to 1, and then formalize it.  I
+say this is exciting not because formalizing things is fun, but because it
+would showcase how you can use visual aids to gain understanding, which is then
+useful even in formal contexts.  Visualizations are not merely toys.
+
+There's a lot more we didn't cover here.  Why does the top-right corner have so
+much more unshaded space than previous visualizations?  Does the answer to this
 question [depend](https://mathoverflow.net/a/17963) on the population of the
 country?  What about the case where families have conceived girls, but hadn't
 gotten to a boy?  (I'd say that the main reason mathematicians find this
