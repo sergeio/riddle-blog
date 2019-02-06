@@ -11,6 +11,9 @@ Guess and test
 Delightful!  That's enough information to answer the question?  I'd have
 expected more rules.
 
+> Well, it's delightful if you ignore the sexism, and gloss over the fact that
+> supposedly this was an interview question at Google.
+
 Maybe the wording "everybody wants to have a son" biased me, but I am pretty
 sure that such a country would have more sons than daughters.  I am also
 skeptical of my intuition, since Ellenberg's bread and butter is making you
