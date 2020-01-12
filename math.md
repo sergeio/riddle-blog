@@ -154,7 +154,7 @@ $ \sum\limits_{n=1}^\infty \frac{1}{2^n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{
 So if we were to draw a square, we could show it filling up by shading in 1/2
 of it, then another 1/4, then 1/8, and so on:
 
-<img src="images/one-half^n-i1.svg" width="512" height="512">
+<img src="images/one-half^n-i1.png">
 
 Each subsequent box has half the height of the previous, hence half the area.
 And still, we see the box filling up to the point that drawing additional boxes
@@ -163,7 +163,7 @@ is difficult even with computer assistance.
 Here's another equally valid way to visualize
 $ \sum\limits_{n=1}^\infty \frac{1}{2^n} $:
 
-<img src="images/one-half^n-i2.svg" width="512" height="512">
+<img src="images/one-half^n-i2.png">
 
 Here, we alternating halving the height and then width of the subsequent boxes,
 but the effect is the same:  the whole box is filled with color, and we can
@@ -177,18 +177,18 @@ $ S_{q} = \sum\limits_{n=1}^\infty \frac{1}{4^n} $
 
 Now we'll want each subsequent box to have 1/4 the area of the preceding one.
 
-<img src="images/one-fourth^n-bottom.svg" width="512" height="512">
+<img src="images/one-fourth^n-bottom.png">
 
 I'm not totally sure what to make of that, and I think we could make a prettier
 visualization.  Let's try:
 
-<img src="images/one-fourth^n-middle.svg" width="512" height="512">
+<img src="images/one-fourth^n-middle.png">
 
 At this point, I notice that besides being prettier, this second visualization
 of our series is a perfect complement to our first one.  Well, almost perfect.
 We'd need a third to completely fill up the box.
 
-<img src="images/one-fourth^n-all.svg" width="512" height="512">
+<img src="images/one-fourth^n-all.png">
 
 Each of the three colors in the above image represents our sum
 $ S_{q} = \sum\limits_{n=1}^\infty \frac{1}{4^n} $.
@@ -204,7 +204,7 @@ My intuition is appeased.  This makes sense.
 Before we move on, there's another intuitive way to show that
 $ S_{q} = \frac{1}{3} $.
 
-<img src="images/one-fourth^n-middle.svg" width="512" height="512">
+<img src="images/one-fourth^n-middle.png">
 
 Because the images we are using to visualize are self-similar, we can do a
 little bit of magic on them.  Notice that the bottom-right quarter of the above
@@ -230,7 +230,7 @@ $ S_{g} = \sum\limits_{n=2}^\infty \frac{n}{2^n} = \frac{1}{4} + \frac{2}{8} + \
 
 So let's draw it:
 
-<img src="images/n-over-2^n.svg" width="512" height="512">
+<img src="images/n-over-2^n.png">
 
 It's pretty.  And it seems to be filling up the box?  Well, except for that
 top-right corner.  What's going on there?
@@ -272,7 +272,7 @@ Now I can stare at this picture and say "Well, that quarter is fully shaded, so
 I know its value.  These two quarters are clearly converging to filling up each
 of their quarters, and this last one is self-similar to the whole square".
 
-<img src="images/n-over-2^n.svg" width="512" height="512">
+<img src="images/n-over-2^n.png">
 
 I'm still delighted by the puzzle, though (because?) it remains
 counterintuitive.  But I now feel like I kind of understand _how_ the girls'

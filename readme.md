@@ -11,8 +11,8 @@ Guess and test
 Delightful!  That's enough information to answer the question?  I'd have
 expected more rules.
 
-> Well, it's delightful if you ignore the sexism, and gloss over the fact that
-> supposedly this was an interview question at Google.
+> Well, it's delightful if you don't think too hard about the effects this
+> might have on an interviewee that has experienced e.g. the one-child policy.
 
 Maybe the wording "everybody wants to have a son" biased me, but I am pretty
 sure that such a country would have more sons than daughters.  I am also
@@ -20,10 +20,10 @@ skeptical of my intuition, since Ellenberg's bread and butter is making you
 confident you understand something, and then pulling the rug out from under
 you.  He's basically a bully, but we all have Stockholm syndrome.
 
-So let's do some mental napkin math: if there are 100 families in this country.
-50 of them will have a boy and no girls.  Another 25 will have one of each.
-And there we are: 75 boys to 25 girls, and only 25 families left to consider,
-and all of them will have boys too.  It seems difficult for the girls to make a
+So let's do some mental math: if there are 100 families in this country.  50 of
+them will have a boy and no girls.  Another 25 will have one of each.  And
+there we are: 75 boys to 25 girls, and only 25 families left to consider, and
+all of them will have boys too.  It seems difficult for the girls to make a
 comeback.  That's the feeling.
 
 Next, we can approximate the answer with a calculator.  Since all families have
@@ -154,7 +154,7 @@ Recall that the number of boys per family can be expressed as
 So if we were to draw a square, we could show it filling up by shading in 1/2
 of it, then another 1/4, then 1/8, and so on:
 
-<img src="images/one-half^n-i1.svg" width="512" height="512">
+<img src="images/one-half^n-i1.png">
 
 Each subsequent box has half the height of the previous, hence half the area.
 And still, we see the box filling up to the point that drawing additional boxes
@@ -163,7 +163,7 @@ is difficult even with computer assistance.
 Here's another equally valid way to visualize
 <img alt="$ \sum\limits_{n=1}^\infty \frac{1}{2^n} $" src="svgs/dd8b88355ca8c6ec10f0e38bacc69fb3.svg" align="middle" width="44.096085pt" height="41.14176pt"/>:
 
-<img src="images/one-half^n-i2.svg" width="512" height="512">
+<img src="images/one-half^n-i2.png">
 
 Here, we alternating halving the height and then width of the subsequent boxes,
 but the effect is the same:  the whole box is filled with color, and we can
@@ -177,18 +177,18 @@ to 1.  That is to say, something that won't fill the box up all the way:
 
 Now we'll want each subsequent box to have 1/4 the area of the preceding one.
 
-<img src="images/one-fourth^n-bottom.svg" width="512" height="512">
+<img src="images/one-fourth^n-bottom.png">
 
 I'm not totally sure what to make of that, and I think we could make a prettier
 visualization.  Let's try:
 
-<img src="images/one-fourth^n-middle.svg" width="512" height="512">
+<img src="images/one-fourth^n-middle.png">
 
 At this point, I notice that besides being prettier, this second visualization
 of our series is a perfect complement to our first one.  Well, almost perfect.
 We'd need a third to completely fill up the box.
 
-<img src="images/one-fourth^n-all.svg" width="512" height="512">
+<img src="images/one-fourth^n-all.png">
 
 Each of the three colors in the above image represents our sum
 <img alt="$ S_{q} = \sum\limits_{n=1}^\infty \frac{1}{4^n} $" src="svgs/183f048910dbdf6127bacf5ec6ab5ca5.svg" align="middle" width="83.35338pt" height="41.14176pt"/>.
@@ -204,7 +204,7 @@ My intuition is appeased.  This makes sense.
 Before we move on, there's another intuitive way to show that
 <img alt="$ S_{q} = \frac{1}{3} $" src="svgs/0fae6ed3c0ccff59ab9efc80cd648824.svg" align="middle" width="47.782515pt" height="27.77577pt"/>.
 
-<img src="images/one-fourth^n-middle.svg" width="512" height="512">
+<img src="images/one-fourth^n-middle.png">
 
 Because the images we are using to visualize are self-similar, we can do a
 little bit of magic on them.  Notice that the bottom-right quarter of the above
@@ -230,7 +230,7 @@ But enough diversions.  We are here to figure out why / how
 
 So let's draw it:
 
-<img src="images/n-over-2^n.svg" width="512" height="512">
+<img src="images/n-over-2^n.png">
 
 It's pretty.  And it seems to be filling up the box?  Well, except for that
 top-right corner.  What's going on there?
@@ -272,7 +272,7 @@ Now I can stare at this picture and say "Well, that quarter is fully shaded, so
 I know its value.  These two quarters are clearly converging to filling up each
 of their quarters, and this last one is self-similar to the whole square".
 
-<img src="images/n-over-2^n.svg" width="512" height="512">
+<img src="images/n-over-2^n.png">
 
 I'm still delighted by the puzzle, though (because?) it remains
 counterintuitive.  But I now feel like I kind of understand _how_ the girls'
@@ -284,10 +284,13 @@ Epilogue
 --------
 
 Something exciting we could have done is take the intuition we gained from
-visualizing how the girls' population converges to 1, and then formalize it.  I
-say this is exciting not because formalizing things is fun, but because it
-would showcase how you can use visual aids to gain understanding, which is then
-useful even in formal contexts.  Visualizations are not merely toys.
+visualizing how the girls' population converges to 1, and then formalize it.
+
+I say this is exciting not because formalizing things is fun, but because it
+would demonstrate how you can use visualization to improve your understanding,
+which is then translatable even to formal contexts.  Visualization is not
+merely a toy.  It can be as valid a medium of thought as is conventional
+symbolic math.
 
 There's a lot more we didn't cover here.  Why does the top-right corner have so
 much more unshaded space than previous visualizations?  Does the answer to this
@@ -296,7 +299,9 @@ country?  What about the case where families have conceived girls, but hadn't
 gotten to a boy?  (I'd say that the main reason mathematicians find this
 [riddle] so contentious is this detail).
 
-Sometimes we have to be content with what is, and not dwell on what isn't.
+Sometimes we have to be content with what is, and not dwell on what isn't.  By
+which I mean creating just this writeup took enough time and effort that I'm
+feeling pretty done with this puzzle.
 
 Thanks for reading!
 
