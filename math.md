@@ -11,8 +11,8 @@ Guess and test
 Delightful!  That's enough information to answer the question?  I'd have
 expected more rules.
 
-> Well, it's delightful if you ignore the sexism, and gloss over the fact that
-> supposedly this was an interview question at Google.
+> Well, it's delightful if you don't think too hard about the effects this
+> might have on an interviewee that has experienced e.g. the one-child policy.
 
 Maybe the wording "everybody wants to have a son" biased me, but I am pretty
 sure that such a country would have more sons than daughters.  I am also
@@ -20,10 +20,10 @@ skeptical of my intuition, since Ellenberg's bread and butter is making you
 confident you understand something, and then pulling the rug out from under
 you.  He's basically a bully, but we all have Stockholm syndrome.
 
-So let's do some mental napkin math: if there are 100 families in this country.
-50 of them will have a boy and no girls.  Another 25 will have one of each.
-And there we are: 75 boys to 25 girls, and only 25 families left to consider,
-and all of them will have boys too.  It seems difficult for the girls to make a
+So let's do some mental math: if there are 100 families in this country.  50 of
+them will have a boy and no girls.  Another 25 will have one of each.  And
+there we are: 75 boys to 25 girls, and only 25 families left to consider, and
+all of them will have boys too.  It seems difficult for the girls to make a
 comeback.  That's the feeling.
 
 Next, we can approximate the answer with a calculator.  Since all families have
@@ -284,10 +284,13 @@ Epilogue
 --------
 
 Something exciting we could have done is take the intuition we gained from
-visualizing how the girls' population converges to 1, and then formalize it.  I
-say this is exciting not because formalizing things is fun, but because it
-would showcase how you can use visual aids to gain understanding, which is then
-useful even in formal contexts.  Visualizations are not merely toys.
+visualizing how the girls' population converges to 1, and then formalize it.
+
+I say this is exciting not because formalizing things is fun, but because it
+would demonstrate how you can use visualization to improve your understanding,
+which is then translatable even to formal contexts.  Visualization is not
+merely a toy.  It can be as valid a medium of thought as is conventional
+symbolic math.
 
 There's a lot more we didn't cover here.  Why does the top-right corner have so
 much more unshaded space than previous visualizations?  Does the answer to this
@@ -296,7 +299,9 @@ country?  What about the case where families have conceived girls, but hadn't
 gotten to a boy?  (I'd say that the main reason mathematicians find this
 [riddle] so contentious is this detail).
 
-Sometimes we have to be content with what is, and not dwell on what isn't.
+Sometimes we have to be content with what is, and not dwell on what isn't.  By
+which I mean creating just this writeup took enough time and effort that I'm
+feeling pretty done with this puzzle.
 
 Thanks for reading!
 
